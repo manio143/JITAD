@@ -69,6 +69,9 @@
     <Content Include="Admin\UserQuery.aspx" />
     <Content Include="Admin\Default.aspx" />
     <Content Include="Admin\Wiadomości.aspx" />
+    <Content Include="bin\JITADUserSystem.dll" />
+    <Content Include="bin\Microsoft.Live.Web.dll" />
+    <Content Include="bin\SQLController.dll" />
     <Content Include="css\lemonade.css" />
     <Content Include="css\lemonade.min.css" />
     <Content Include="Error404.aspx" />
