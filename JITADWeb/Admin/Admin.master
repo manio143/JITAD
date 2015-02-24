@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="JITADWeb.Admin.Admin" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+
+    <h1>Panel administracyjny</h1>
+    <hr />
+    <div>
+        <%= JITADWeb.GlobalFunctions.GetAdminMenu(Page.Title) %>
+        <asp:ContentPlaceHolder ID="Admin_Content_Holder" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+
+</asp:Content>

@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - JITAD</title>
+
+    <%@ Import Namespace="Microsoft.AspNet.FriendlyUrls" %>
+
+    <link rel="stylesheet" href="css/lemonade.css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript" src="/Scripts/jquery-2.1.3.js"></script>
+    <style type="text/css">
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .outer-container {
+            align-content: center;
+        }
+        .menu{
+            position:page;
+            top:0;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+        <div class="outer-container">
+            <div id="menu_bar" class="container menu">
+                <div>
+                    <a runat="server" href="~/">JITAD</a>
+                </div>
+                <div>
+                    <%= LinksForLoggedInOrNot() %>
+                </div>
+            </div>
+
+            <div class="container body-content">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <footer>
+                <hr />
+                <p>&copy; <%: DateTime.Now.Year %> - JITAD</p>
+            </footer>
+
+        </div>
+    </form>
+</body>
+</html>
