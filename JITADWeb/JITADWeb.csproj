@@ -80,7 +80,6 @@
     <Content Include="Konto\Default.aspx" />
     <Content Include="Admin\Admin.master" />
     <None Include="Scripts\jquery-2.1.3.intellisense.js" />
-    <Content Include="Konto\Usuń konto.aspx" />
     <Content Include="Konto\webauth.aspx" />
     <Content Include="PermissionDenied.aspx" />
     <Content Include="Scripts\jquery-2.1.3.js" />
@@ -179,13 +178,6 @@
     <Compile Include="Konto\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Konto\Usuń konto.aspx.cs">
-      <DependentUpon>Usuń konto.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Konto\Usuń konto.aspx.designer.cs">
-      <DependentUpon>Usuń konto.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Konto\webauth.aspx.cs">
       <DependentUpon>webauth.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -227,9 +219,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Code\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
