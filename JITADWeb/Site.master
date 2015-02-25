@@ -1,56 +1,49 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SiteMaster" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SiteMaster" %>
 
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head runat="server">
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - JITAD</title>
+    <title>Junior ITAD - <%:Page.Title %></title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/lemonade.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+    <script src="/Scripts/jquery-2.1.3.min.js"></script>
+    <script src="/Scripts/jquery.lazyload.js"></script>
 
-    <%@ Import Namespace="Microsoft.AspNet.FriendlyUrls" %>
 
-    <link rel="stylesheet" href="css/lemonade.css" />
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <script type="text/javascript" src="/Scripts/jquery-2.1.3.js"></script>
-    <style type="text/css">
-        .container {
-            max-width: 1200px;
-            margin: auto;
-        }
+    <script type="text/javascript" charset="utf-8"> 
+        $(document).ready(function () {
+            $("img").lazyload({
+                effect: "fadeIn",
+                effectspeed: 200000
+            });
+        });
+    </script>
 
-        .outer-container {
-            align-content: center;
-        }
-        .menu{
-            position:page;
-            top:0;
-            margin:auto;
-        }
-    </style>
 </head>
 <body>
-    <form runat="server">
-        <div class="outer-container">
-            <div id="menu_bar" class="container menu">
-                <div>
-                    <a runat="server" href="~/">JITAD</a>
-                </div>
-                <div>
-                    <%= LinksForLoggedInOrNot() %>
-                </div>
-            </div>
 
-            <div class="container body-content">
-                <asp:ContentPlaceHolder ID="MainContent" runat="server">
-                </asp:ContentPlaceHolder>
-            </div>
-            <footer>
-                <hr />
-                <p>&copy; <%: DateTime.Now.Year %> - JITAD</p>
-            </footer>
+    <input type="checkbox" class="main-nav-check" id="main-nav-check" />
+    <nav class="main-nav" id="main-nav">
+        <img src="/Images/logo1.png" style="width: 40%; height: auto;" /><br />
+        <a href="#">Nav Links</a>
+        <!-- more -->
+    </nav>
 
+    <div class="page-wrap">
+        <div class="menu frame">
+            <div class="bit-50">
+                <label for="main-nav-check" class="toggle-menu">
+                    <img src="/Images/menu.svg" alt="menu" /></label></div>
+            <div class="bit-50"><a href="/Konto/Zaloguj" class="sign-in-top">ZALOGUJ SIĘ</a><a href="/Konto/Zaloguj" class="sign-up-top">ZAREJESTRUJ SIĘ</a></div>
         </div>
-    </form>
+        
+        <form runat="server">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>
+    </div>
+    
 </body>
 </html>
