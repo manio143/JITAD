@@ -2,55 +2,168 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div>
-        <div class="frame">
-            <img id="JITAD_logo" src="/Images/logo.jpg" class="logo" />
-            <asp:ImageButton ID="btnRegister" ImageUrl="/Images/btnRegister.png" OnClick="btnRegister_Click" runat="server" />
-            <p>Time left placeholder</p>
-        </div>
-        <div class="frame">
-            <p>Video placeholder</p>
-        </div>
-        <div class="frame">
-            <div class="bit-2">
-                <p>some content</p>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>JITAD</h1>
             </div>
-            <div class="bit-2">
-                <p>more content</p>
+            <p>09 / 04 / 2015</p>
+            <!--<p>POZOSTAŁO</p>
+	            <table>
+		            <tr><td>12</th><td>14</th><td>23</td></tr>
+		            <tr><td>Dni</td><td>Godzin</td><td>Minuty</td></tr>
+	            </table>
+	            -->
+            <a href="#" class="sign-up">ZAREJESTRUJ SIĘ</a>
+        </div>
+    </header>
+    <!--<article>VIDEO</article>-->
+    <article id="introduce">
+        <div class="container">
+            <h2>O NAS</h2>
+            <h3>ITAD dla niewtajmniczonych</h3>
+            <div class="frame">
+                <div class="bit-60">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor pretium nibh in semper. Donec mollis suscipit mi, in porta libero vestibulum sed. Suspendisse vitae tincidunt mi, quis malesuada felis. Aliquam a maximus orci, venenatis maximus mi. Etiam arcu nulla, luctus at consectetur quis, semper sit amet massa. Nulla tempor arcu at nisl porttitor, non pretium enim vulputate. Morbi risus arcu, feugiat at pharetra id, convallis eget neque. Fusce quis ullamcorper tortor, quis imperdiet urna. Quisque porttitor faucibus mauris in faucibus. Etiam hendrerit quam et nisi consequat, eu tempor velit ullamcorper. Nam non dui ac orci pellentesque vehicula. Praesent ut mattis felis, posuere malesuada metus.</p>
+                </div>
+                <div class="bit-40">
+                    <img src="./images/icons.png" class="icons-win" />
+                </div>
             </div>
         </div>
-        <div id="opis" class="frame">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed fermentum velit, in consectetur est. Cras consequat, ex at tempor ultrices, est enim iaculis lacus, vitae lobortis nisi enim eget tortor. Etiam fermentum nulla a ligula sagittis vulputate. Mauris posuere malesuada orci, sed convallis dolor ultrices nec. Vivamus a erat tristique quam viverra elementum sit amet ac ante. Sed sollicitudin est non neque vulputate egestas. Nam rutrum hendrerit congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu nisl erat. In dictum leo nibh, non scelerisque enim bibendum sit amet. Nulla dictum, nisi sed bibendum tincidunt, ante enim bibendum magna, ornare convallis dui libero quis mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed sit amet laoreet arcu, quis pulvinar erat.
-            </p>
-            <p>
-                Proin augue erat, pretium sit amet quam sit amet, luctus sodales felis. Nulla eget dui tristique, ultricies dui sit amet, tempus enim. Nunc eget turpis neque. Vestibulum accumsan, nibh sed lobortis posuere, felis elit aliquet purus, id porta purus metus non nulla. Donec quis condimentum velit. Integer dignissim, arcu vitae varius finibus, velit dui eleifend nunc, ut aliquet nisl ipsum eu leo. Donec dignissim ipsum ac lectus volutpat, et porttitor nisl condimentum. Etiam sem nisl, consectetur non tellus id, consequat eleifend purus. Duis justo purus, vehicula in dictum ac, viverra sit amet orci. Suspendisse potenti. Praesent elementum, mauris eu rutrum porta, ligula ex molestie ex, sed ornare mi lacus at nisl. Vestibulum auctor nibh non arcu congue, in pharetra quam aliquet. Donec fringilla turpis in turpis egestas, et tristique magna tempor. 
-            </p>
-        </div>
-        <div class="frame">
-            <h3>Atrakcje</h3>
-            <p>Tu będą wymienione atrakcje i w miarę jak przewija się w dół, z prawej strony wysuwać na środek będą się obrazki czy coś.</p>
-        </div>
-        <div class="frame">
-            <h3>Kontakt</h3>
-            <asp:ScriptManager ID="KontaktScriptManager" runat="server" EnablePageMethods="true" ScriptMode="Debug" />
+    </article>
 
-            <asp:Panel ID="pnKontakt" DefaultButton="btnSend" runat="server">
-                <asp:Label ID="lblResult" Style="display: none; font-weight: bold" runat="server" /><br />
-                <a>E-mail</a><br />
-                <asp:TextBox ID="txtEmail" runat="server" />
-                <asp:Label ID="lblEMust" Text="* Pole wymagane." ForeColor="Red" Style="display: none" runat="server" /><br />
-                <a>Tytuł</a><br />
-                <asp:TextBox ID="txtTitle" runat="server" />
-                <asp:Label ID="lblTMust" Text="* Pole wymagane." ForeColor="Red" Style="display: none" runat="server" /><br />
-                <a>Wiadomość</a><br />
-                <asp:TextBox ID="txtMssg" runat="server" TextMode="MultiLine" Columns="45" Rows="8" />
-                <asp:Label ID="lblMMust" Text="* Pole wymagane." ForeColor="Red" Style="display: none" runat="server" /><br />
-                <asp:Button ID="btnSend" Text="Wyślij" OnClientClick="Send(); return false;" runat="server" />
-            </asp:Panel>
+    <article id="counter">
+        <div class="container">
+            <p>POZOSTAŁO</p>
+            <table>
+                <tr>
+                    <td>12</td>
+                    <td>14</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Dni</td>
+                    <td>Godzin</td>
+                    <td>Minuty</td>
+                </tr>
+            </table>
         </div>
-    </div>
+    </article>
 
+    <article id="stats">
+        <div class="container">
+            <h2>GŁÓWNE TEMATY</h2>
+            <h3>Konferencja w liczbach</h3>
+            <div class="frame">
+                <div class="bit-4">
+                    <p>5</p>
+                    <p>PRELEGENTÓW</p>
+                </div>
+                <div class="bit-4">
+                    <p>25</p>
+                    <p>GODZIN</p>
+                </div>
+                <div class="bit-4">
+                    <p>300</p>
+                    <p>MIEJSC</p>
+                </div>
+                <div class="bit-4">
+                    <p>300</p>
+                    <p>NAGRÓD</p>
+                </div>
+            </div>
+            <img src="./images/stats.png" />
+        </div>
+    </article>
+
+    <article id="profiles">
+        <div class="container">
+            <h2>PRELEGENCI</h2>
+            <h3>Poznaj kto poprowadzi wykłady</h3>
+            <div class="frame">
+                <div class="bit-3">
+                    <img src="./images/profile-1.jpg" /><h4>Lorem Ipsum</h4>
+                </div>
+                <div class="bit-3">
+                    <img src="./images/profile-2.jpg" /><h4>Lorem Ipsum</h4>
+                </div>
+                <div class="bit-3">
+                    <img src="./images/profile-3.jpg" /><h4>Lorem Ipsum</h4>
+                </div>
+            </div>
+            <div class="frame">
+                <div class="bit-3">
+                    <img src="./images/profile-4.jpg" /><h4>Lorem Ipsum</h4>
+                </div>
+                <div class="bit-3">
+                    <img src="./images/profile-5.jpg" /><h4>Lorem Ipsum</h4>
+                </div>
+                <div class="bit-3">
+                    <img src="./images/profile-6.jpg" /><h4>Lorem Ipsum</h4>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article id="topics">
+        <div class="container">
+            <h2>GŁÓWNE TEMATY</h2>
+            <h3>O czym będziemy dyskutowali?</h3>
+            <div class="frame">
+                <div class="bit-3">
+                    <img src="./images/windows-phone.png" /><h4>Lorem Ipsum</h4>
+                </div>
+                <div class="bit-3">
+                    <img src="./images/cloud-computing.png" /><h4>Lorem Ipsum</h4>
+                </div>
+                <div class="bit-3">
+                    <img src="./images/windows.png" /><h4>Lorem Ipsum</h4>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article id="agenda">
+        <div class="container">
+            <h2>AGENDA</h2>
+            <h3>Plan dnia</h3>
+            <div class="frame">
+                <div class="bit-1">
+                    <img src="./images/agenda.png" />
+                </div>
+            </div>
+            <a href="#" class="sign-up">ZAREJESTRUJ SIĘ</a>
+        </div>
+    </article>
+
+    <footer>
+        <div class="container">
+            <img src="images/microsoft.png" class="microsoft" />
+            <div class="frame">
+                <div class="bit-3">.</div>
+                <div class="bit-3">.</div>
+                <div class="bit-3">.</div>
+            </div>
+            <div class="frame">
+                <div class="bit-2"></div>
+                <div class="bit-2">
+
+                    <asp:ScriptManager ID="KontaktScriptManager" runat="server" EnablePageMethods="true" ScriptMode="Debug" />
+
+                    <asp:Panel ID="pnKontakt" DefaultButton="btnSend" runat="server">
+                        <asp:Label ID="lblResult" Style="display: none; font-weight: bold" runat="server" /><br />
+                        <asp:TextBox ID="txtEmail" placeholder="E-mail" runat="server" required />
+                        <asp:TextBox ID="txtTitle" placeholder="Tytuł" runat="server" required />
+                        <br />
+                        <asp:TextBox ID="txtMssg" runat="server" placeholder="Wiadomość" TextMode="MultiLine" Columns="20" Rows="10" required />
+                        <br />
+                        <asp:Button ID="btnSend" Text="WYŚLIJ" OnClientClick="Send(); return false;" runat="server" />
+                    </asp:Panel>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script type="text/javascript">
         function Send() {
@@ -72,7 +185,7 @@
                 document.getElementById('<%:lblResult.ClientID%>').style.color = "Red";
             }
             document.getElementById('<%:lblResult.ClientID%>').style.display = "none";
-            if (!Validate(email, title, mssg)) return; //PageMethods.SendMessage(email, title, mssg, onSuccess, onError);
+            <%--if (!Validate(email, title, mssg)) return; //PageMethods.SendMessage(email, title, mssg, onSuccess, onError);--%>
             $.ajax({
                 type: 'POST',
                 contentType: 'application/json; charset=utf-8',
@@ -84,7 +197,7 @@
             });
 
         }
-        function Validate(email, title, mssg) {
+        <%-- function Validate(email, title, mssg) {
             var validated = true;
             if (email == "") { document.getElementById('<%:lblEMust.ClientID%>').style.display = "inline"; validated = false; }
             else document.getElementById('<%:lblEMust.ClientID%>').style.display = "none";
@@ -92,8 +205,8 @@
             else document.getElementById('<%:lblTMust.ClientID%>').style.display = "none";
             if (mssg == "") { document.getElementById('<%:lblMMust.ClientID%>').style.display = "inline"; validated = false; }
             else document.getElementById('<%:lblMMust.ClientID%>').style.display = "none";
-                    return validated;
-                }
+            return validated;
+        } --%>
 
     </script>
 </asp:Content>
