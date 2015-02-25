@@ -13,14 +13,14 @@
             <h1>Zaloguj</h1>
             <asp:Panel ID="pnLogin" DefaultButton="btnLogin" runat="server">
 
-                    <asp:Label ID="lblError" ForeColor="Red" runat="server" Visible="false" />
+                <asp:Label ID="lblError" ForeColor="Red" runat="server" Visible="false" />
                 <br />
-                    <asp:TextBox ID="txtLogin" placeholder="Login" runat="server" />
-                <br /><br />
-                    <asp:TextBox ID="txtPassword" placeholder="Hasło" TextMode="Password" runat="server" />
+                <asp:TextBox ID="txtLogin" placeholder="Login" runat="server" />
+
+                <asp:TextBox ID="txtPassword" placeholder="Hasło" TextMode="Password" runat="server" />
                 <br />
-                    <asp:Button Text="Zaloguj" ID="btnLogIn" OnClick="btnLogIn_Click" runat="server" />
-                    <a href="~/Konto/webauth?login=1<%=getReturnUrl() %>" runat="server">Zaloguj się z kontem Microsoft</a>
+                <asp:Button Text="Zaloguj" ID="btnLogIn" OnClick="btnLogIn_Click" runat="server" />
+                <a href="~/Konto/webauth?login=1<%=getReturnUrl() %>" runat="server">Zaloguj się z kontem Microsoft</a>
 
             </asp:Panel>
         </div>
