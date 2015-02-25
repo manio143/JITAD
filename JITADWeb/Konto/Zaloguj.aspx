@@ -1,31 +1,31 @@
 ﻿<%@ Page Title="Zaloguj/Zarejestruj" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeBehind="Zaloguj.aspx.cs" Inherits="JITADWeb.Konto.Zaloguj" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="frame">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>JITAD</h1>
+            </div>
+        </div>
+    </header>
+    <div class="frame" style="background-color: #3e3e3e">
         <div class="bit-2">
-            <h2>Zaloguj</h2>
+            <h1>Zaloguj</h1>
             <asp:Panel ID="pnLogin" DefaultButton="btnLogin" runat="server">
-                <div>
+
                     <asp:Label ID="lblError" ForeColor="Red" runat="server" Visible="false" />
-                </div>
-                <div>
-                    <asp:Label Text="Login" runat="server" />
-                    <asp:TextBox ID="txtLogin" runat="server" />
-                </div>
-                <div>
-                    <asp:Label Text="Hasło" runat="server" />
-                    <asp:TextBox ID="txtPassword" TextMode="Password" runat="server" />
-                </div>
-                <div>
+                <br />
+                    <asp:TextBox ID="txtLogin" placeholder="Login" runat="server" />
+                <br /><br />
+                    <asp:TextBox ID="txtPassword" placeholder="Hasło" TextMode="Password" runat="server" />
+                <br />
                     <asp:Button Text="Zaloguj" ID="btnLogIn" OnClick="btnLogIn_Click" runat="server" />
-                </div>
-                <div>
                     <a href="~/Konto/webauth?login=1<%=getReturnUrl() %>" runat="server">Zaloguj się z kontem Microsoft</a>
-                </div>
+
             </asp:Panel>
         </div>
         <div class="bit-2">
-            <h2>Rejestracja</h2>
+            <h1>Rejestracja</h1>
             <div>
                 <asp:Label ID="lblErrorReg" ForeColor="Red" runat="server" Visible="false" />
                 <asp:Label ID="lblSuccess" ForeColor="Green" runat="server" Visible="false" />
