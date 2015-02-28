@@ -34,7 +34,13 @@ namespace JITADWeb.Konto
 
         private void getSchoolsList()
         {
-
+            UserStats s = new UserStats();
+            var schools = s.GetSchools();
+            schools.RemoveAt(0);
+            foreach (var sc in schools)
+            {
+                ddlSchools.Items.Add(sc);
+            }
         }
 
         protected void btnChangePassword_Click(object sender, EventArgs e)

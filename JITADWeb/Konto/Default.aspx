@@ -24,7 +24,7 @@
                     </div>
                     <div>
                         <a>Szkoła</a>
-                        <asp:DropDownList ID="ddlSchools" runat="server"></asp:DropDownList>
+                        <asp:DropDownList ID="ddlSchools" runat="server" Width="100%"></asp:DropDownList>
                     </div>
                     <div>
                         <asp:Button ID="btnApply" Text="Zapisz" OnClick="btnApply_Click" runat="server" />
