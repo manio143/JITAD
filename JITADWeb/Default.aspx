@@ -180,12 +180,10 @@
 
             function onError(result) {
                 console.log('Cannot process your request at the moment, please try later.');
-                document.getElementById('<%:lblResult.ClientID%>').innerHTML = "Wystąpił błąd.";
-                document.getElementById('<%:lblResult.ClientID%>').style.display = "inline";
-                document.getElementById('<%:lblResult.ClientID%>').style.color = "Red";
+                setErrLbl("Wystąpił błąd.")
             }
             document.getElementById('<%:lblResult.ClientID%>').style.display = "none";
-            <%--if (!Validate(email, title, mssg)) return; //PageMethods.SendMessage(email, title, mssg, onSuccess, onError);--%>
+            if (!Validate(email, title, mssg)) { setErrLbl("Pola nie mogą być puste!"); return; } //PageMethods.SendMessage(email, title, mssg, onSuccess, onError);
             $.ajax({
                 type: 'POST',
                 contentType: 'application/json; charset=utf-8',
@@ -197,16 +195,19 @@
             });
 
         }
-        <%-- function Validate(email, title, mssg) {
+        function Validate(email, title, mssg) {
             var validated = true;
-            if (email == "") { document.getElementById('<%:lblEMust.ClientID%>').style.display = "inline"; validated = false; }
-            else document.getElementById('<%:lblEMust.ClientID%>').style.display = "none";
-            if (title == "") { document.getElementById('<%:lblTMust.ClientID%>').style.display = "inline"; validated = false; }
-            else document.getElementById('<%:lblTMust.ClientID%>').style.display = "none";
-            if (mssg == "") { document.getElementById('<%:lblMMust.ClientID%>').style.display = "inline"; validated = false; }
-            else document.getElementById('<%:lblMMust.ClientID%>').style.display = "none";
+            if (email == "") { validated = false; }
+            if (title == "") { validated = false; }
+            if (mssg == "") { validated = false; }
+            
             return validated;
-        } --%>
+        }
+        function setErrLbl(mssg) {
+            document.getElementById('<%:lblResult.ClientID%>').innerHTML = mssg;
+            document.getElementById('<%:lblResult.ClientID%>').style.display = "inline";
+            document.getElementById('<%:lblResult.ClientID%>').style.color = "Red";
+        }
 
     </script>
 </asp:Content>
