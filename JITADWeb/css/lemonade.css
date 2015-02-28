@@ -57,11 +57,17 @@
 .bit-40 {
   width: 40%; }
 
+.bit-50 {
+    width: 50%;}
+
 .bit-60 {
   width: 60%; }
 
 .bit-75 {
   width: 75%; }
+
+.bit-80 {
+    width: 80%;}
 
 @media (max-width: 30em) {
   .bit-1 {

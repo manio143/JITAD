@@ -146,6 +146,7 @@ input { width: 50%;}
 #login input { width: 100%; border: 1px solid #ccc;}
 #usrData input { width: 100%; border: 1px solid #ccc;}
 #passChg input { width: 100%; border: 1px solid #ccc;}
+#query input { width: 100%; border: 1px solid #ccc; margin-bottom: 3px;}
 input[type=submit] { width: 100% !important; margin-top: 10px; background: #000; color: #fff;}
 input[type=submit]:hover { background-color: #111;}
 textarea { width: 100%;}

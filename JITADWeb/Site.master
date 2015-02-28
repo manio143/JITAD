@@ -33,10 +33,10 @@
 
     <div class="page-wrap">
         <div class="menu frame">
-            <div class="bit-50">
+            <div class="bit-75">
                 <label for="main-nav-check" class="toggle-menu">
                     <img src="/Images/menu.svg" alt="menu" /></label></div>
-            <div class="bit-50"><a href="/Konto/Zaloguj" class="sign-in-top">ZALOGUJ SIĘ</a><a href="/Konto/Zaloguj" class="sign-up-top">ZAREJESTRUJ SIĘ</a></div>
+            <div class="bit-25"><a href="/Konto/Zaloguj" class="sign-in-top">ZALOGUJ SIĘ</a><a href="/Konto/Zaloguj" class="sign-up-top">ZAREJESTRUJ SIĘ</a></div>
         </div>
         
         <form runat="server">

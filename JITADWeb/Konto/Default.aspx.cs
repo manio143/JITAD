@@ -20,14 +20,16 @@ namespace JITADWeb.Konto
                 pnPassChange.Enabled = false;
                 pnPassChange.Visible = false;
             }
+            if (!Page.IsPostBack)
+            {
+                if (usr.Name != null) txtName.Text = usr.Name;
+                if (usr.Surname != null) txtSurname.Text = usr.Surname;
 
-            if (usr.Name != null) txtName.Text = usr.Name;
-            if (usr.Surname != null) txtSurname.Text = usr.Surname;
+                ddlSchools.Items.Add("Wybierz szkołę...");
+                getSchoolsList();
 
-            ddlSchools.Items.Add("Wybierz szkołę...");
-            getSchoolsList();
-
-            ddlSchools.SelectedIndex = usr.SchoolId;
+                ddlSchools.SelectedIndex = usr.SchoolId;
+            }
         }
 
         private void getSchoolsList()

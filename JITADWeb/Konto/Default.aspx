@@ -6,17 +6,16 @@
             < Powrót na stronę główną
         </div>
     </article>
-
-    <div class="frame" style="background-color: aqua">
-        <asp:Label ID="lblError" ForeColor="Red" runat="server" Visible="false" />
-        <asp:Label ID="lblSuccess" ForeColor="Green" runat="server" Visible="false" />
-    </div>
-    <article id="usrData">
-        <div class="frame">
-            <div class="bit-3">
-                <p style="color: white">.</p>
+    <div class="frame">
+        <div class="bit-3">
+            <p style="color: white">.</p>
+        </div>
+        <div class="bit-3">
+            <div style="background-color: aqua">
+                <asp:Label ID="lblError" ForeColor="Red" runat="server" Visible="false" />
+                <asp:Label ID="lblSuccess" ForeColor="Green" runat="server" Visible="false" />
             </div>
-            <div class="bit-3">
+            <article id="usrData">
                 <asp:Panel ID="pnUserData" DefaultButton="btnApply" CssClass="frame" runat="server">
                     <h2>Twoje dane</h2>
                     <div>
@@ -31,18 +30,8 @@
                         <asp:Button ID="btnApply" Text="Zapisz" OnClick="btnApply_Click" runat="server" />
                     </div>
                 </asp:Panel>
-            </div>
-            <div class="bit-3">
-                <p style="color: white">.</p>
-            </div>
-        </div>
-    </article>
-    <article id="passChg">
-        <div class="frame">
-            <div class="bit-3">
-                <p style="color: white">.</p>
-            </div>
-            <div class="bit-3">
+            </article>
+            <article id="passChg">
                 <asp:Panel ID="pnPassChange" DefaultButton="btnChangePassword" CssClass="frame" ValidateRequestMode="Enabled" runat="server">
                     <h2>Zmiana hasła</h2>
                     <div>
@@ -79,10 +68,10 @@
                         <asp:Button Text="Zapisz" ID="btnChangePassword" CausesValidation="true" ValidationGroup="PwChg" OnClick="btnChangePassword_Click" runat="server" />
                     </div>
                 </asp:Panel>
-            </div>
-            <div class="bit-3">
-                <p style="color: white">.</p>
-            </div>
+            </article>
         </div>
-    </article>
+        <div class="bit-3">
+            <p style="color: white">.</p>
+        </div>
+    </div>
 </asp:Content>
