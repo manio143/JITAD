@@ -135,7 +135,7 @@ img.microsoft { width: 400px; height: auto;}
 	position: fixed;
 	right: 0px !important;
 }
-
+#main-nav a {display: block;}
 /* /////////////////////// */
 
 input, textarea { background: rgba(255,255,255,.1); outline: none; border: none; border-bottom: 0px solid #ccc; display: block; float: left; font-size: 18px; padding: 10px; font-family: 'Lato', sans-serif; color: #ccc; margin-bottom: 20px;}

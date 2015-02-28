@@ -12,7 +12,7 @@
     <script src="/Scripts/jquery.lazyload.js"></script>
 
     <%@ Import Namespace="Microsoft.AspNet.FriendlyUrls" %>
-    <script type="text/javascript" charset="utf-8"> 
+    <script type="text/javascript" charset="utf-8">
         $(document).ready(function () {
             $("img").lazyload({
                 effect: "fadeIn",
@@ -27,7 +27,17 @@
     <input type="checkbox" class="main-nav-check" id="main-nav-check" />
     <nav class="main-nav" id="main-nav">
         <img src="/Images/logo1.png" style="width: 40%; height: auto;" /><br />
-        <a href="#">Nav Links</a>
+        <a href="/">Strona główna</a>
+        <% var usr = (JITAD.User)Session["CurrentUser"];
+           if (usr != null)
+           {
+               if (usr.IsAdmin)
+                   Response.Write("<a href='/Admin/'>Panel administracyjny</a>");
+               Response.Write(
+               "<a href='/Konto/'>Moje konto</a>" +
+               "<a href='/Konto/webauth?logout=1'>Wyloguj</a>");
+           }
+        %>
         <!-- more -->
     </nav>
 
@@ -35,15 +45,20 @@
         <div class="menu frame">
             <div class="bit-75">
                 <label for="main-nav-check" class="toggle-menu">
-                    <img src="/Images/menu.svg" alt="menu" /></label></div>
-            <div class="bit-25"><a href="/Konto/Zaloguj" class="sign-in-top">ZALOGUJ SIĘ</a><a href="/Konto/Zaloguj" class="sign-up-top">ZAREJESTRUJ SIĘ</a></div>
+                    <img src="/Images/menu.svg" alt="menu" /></label>
+            </div>
+            <div class="bit-25">
+                <% if (Session["CurrentUser"] == null) Response.Write(
+                   "<a href='/Konto/Zaloguj' class='sign-in-top'>ZALOGUJ SIĘ</a><a href='/Konto/Zaloguj' class='sign-up-top'>ZAREJESTRUJ SIĘ</a>");
+                %>
+            </div>
         </div>
-        
+
         <form runat="server">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </form>
     </div>
-    
+
 </body>
 </html>
