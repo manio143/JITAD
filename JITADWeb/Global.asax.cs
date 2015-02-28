@@ -123,17 +123,17 @@ namespace JITADWeb
             else if (pageTitle == "Arrived") page = 'P';
             else if (pageTitle == "Wiadomości") page = 'M';
 
-            string R = "<h3>";
+            string R = "<h2>";
             if (page != 'S') R += "<a href=\"/Admin/\">Statystyki</a>  ";
             else R += "Statystyki  ";
             if (page != 'A') R += "<a href=\"/Admin/Użytkownicy\">Użytkownicy</a>  ";
             else R += "Użytkownicy  ";
-            if (page != 'P') R += "<a href=\"/Admin/Arrived\">Arrived</a>";
-            else R += "Arrived";
-            if (page != 'M') R += "<a href=\"/Admin/Wiadomości\">Wiadomości</a>";
-            else R += "Wiadomości";
+            if (page != 'P') R += "<a href=\"/Admin/Arrived\">Arrived</a>  ";
+            else R += "Arrived  ";
+            if (page != 'M') R += "<a href=\"/Admin/Wiadomości\">Wiadomości</a>  ";
+            else R += "Wiadomości  ";
 
-            R += "</h3>";
+            R += "</h2>";
 
             return R;
         }

@@ -1,8 +1,12 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="JITADWeb.Admin.Admin" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
-    <h1>Panel administracyjny</h1>
+    <article style="background: #65d0ff; height: 80px; color: rgba(255,255,255,.5); padding-top: 20px;">
+        <div class="container">
+            < Powrót na stronę główną
+        </div>
+    </article>
+    <h3>Panel administracyjny</h3>
     <hr />
     <div>
         <%= JITADWeb.GlobalFunctions.GetAdminMenu(Page.Title) %>
