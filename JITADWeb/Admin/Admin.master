@@ -6,7 +6,7 @@
             < Powrót na stronę główną
         </div>
     </article>
-    <h3>Panel administracyjny</h3>
+    <h2 class="adminHeader">Panel administracyjny</h2>
     <hr />
     <div>
         <%= JITADWeb.GlobalFunctions.GetAdminMenu(Page.Title) %>
