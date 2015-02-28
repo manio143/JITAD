@@ -14,7 +14,7 @@
 		            <tr><td>Dni</td><td>Godzin</td><td>Minuty</td></tr>
 	            </table>
 	            -->
-            <a href="#" class="sign-up">ZAREJESTRUJ SIĘ</a>
+            <a href="/Konto/Zaloguj" class="sign-up">ZAREJESTRUJ SIĘ</a>
         </div>
     </header>
     <!--<article>VIDEO</article>-->
@@ -133,7 +133,7 @@
                     <img src="./images/agenda.png" />
                 </div>
             </div>
-            <a href="#" class="sign-up">ZAREJESTRUJ SIĘ</a>
+            <a href="/Konto/Zaloguj" class="sign-up">ZAREJESTRUJ SIĘ</a>
         </div>
     </article>
 
