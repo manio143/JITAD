@@ -48,7 +48,7 @@
                     <img src="/Images/menu.svg" alt="menu" /></label>
             </div>
             <div class="bit-25">
-                <% if (Session["CurrentUser"] == null) Response.Write(
+                <% if (Session["CurrentUser"] == null && !Request.RawUrl.Contains("/Konto/Zaloguj")) Response.Write(
                    "<a href='/Konto/Zaloguj' class='sign-in-top'>ZALOGUJ SIĘ</a><a href='/Konto/Zaloguj' class='sign-up-top'>ZAREJESTRUJ SIĘ</a>");
                 %>
             </div>
