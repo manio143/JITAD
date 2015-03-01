@@ -21,7 +21,7 @@
     <article id="introduce">
         <div class="container">
             <h2>O NAS</h2>
-            <h3>ITAD dla niewtajmniczonych</h3>
+            <h3>ITAD dla niewtajemniczonych</h3>
             <div class="frame">
                 <div class="bit-60">
                     <p>Już 9 kwietnia odbędzie się kolejna konferencja Junior IT Academic Day. Głównym tematem tegorocznej edycji będą usługi chmurowe, takie jak Microsoft Azure. Nie zabraknie jednak prelekcji także na inne tematy związane z IT. W gronie osób związanych z tą branżą znajdzie się też czas na pytania do prelegentów, poznanie nowych osób, przetestowanie nowego sprzętu mobilnego, dyskusję czy poznanie warunków na wydziale. Na imprezie pod patronatem Microsoftu nie mogłoby się obejść także bez wspomnienia o niedawnym hicie – prototypie Microsoft Holo Lens, holograficznym podejściem do idei rozszerzonej rzeczywistości. W przerwach pomiędzy atrakcjami będzie rozdawana pizza. Ponadto wśród uczestników rozlosowane zostaną nagrody: Nokia Lumia, koszulki, książki i inne gadżety. Junior ITAD stanowi świetny sposób na wejście w świat informatyki lub poszerzenia swojej informatycznej wiedzy. Konferencja odbędzie się na Wydziale Matematyki, Informatyki, Mechaniki UW. </p>
@@ -38,9 +38,9 @@
             <p>POZOSTAŁO</p>
             <table>
                 <tr>
-                    <td>12</td>
-                    <td>14</td>
-                    <td>23</td>
+                    <td id="TLD">XX</td>
+                    <td id="TLH">YY</td>
+                    <td id="TLM">ZZ</td>
                 </tr>
                 <tr>
                     <td>Dni</td>
@@ -164,7 +164,7 @@
             </div>
         </div>
     </footer>
-
+    <script type="text/javascript" src="Scripts/datetime.1-3.js"></script>
     <script type="text/javascript">
         function Send() {
             var email = document.getElementById('<%:txtEmail.ClientID%>').value;
@@ -200,7 +200,7 @@
             if (email == "") { validated = false; }
             if (title == "") { validated = false; }
             if (mssg == "") { validated = false; }
-            
+
             return validated;
         }
         function setErrLbl(mssg) {
@@ -208,6 +208,21 @@
             document.getElementById('<%:lblResult.ClientID%>').style.display = "inline";
             document.getElementById('<%:lblResult.ClientID%>').style.color = "Red";
         }
-
+        $(document).ready(function () {
+            console.log("Timer started.");
+            setDate();
+        });
+        function setDate() {
+            var t_date = new DateTime(2015, 4, 21, 9, 0, 0);
+            t_date = t_date.subtractDate(DateTime.now());
+            var d = t_date.days();
+            var h = t_date.hours();
+            var m = t_date.minutes();
+            console.log(d + " " + h + " " + m);
+            document.getElementById("TLD").innerHTML = d;
+            document.getElementById("TLH").innerHTML = h;
+            document.getElementById("TLM").innerHTML = m;
+            setTimeout(setDate, 60000);
+        }
     </script>
 </asp:Content>
