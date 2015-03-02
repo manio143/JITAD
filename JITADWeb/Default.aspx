@@ -148,7 +148,7 @@
             <div class="frame">
                 <div class="bit-2"></div>
                 <div class="bit-2">
-
+                    <div id="contactFrm">
                     <asp:ScriptManager ID="KontaktScriptManager" runat="server" EnablePageMethods="true" ScriptMode="Debug" />
 
                     <asp:Panel ID="pnKontakt" DefaultButton="btnSend" runat="server">
@@ -160,6 +160,7 @@
                         <br />
                         <asp:Button ID="btnSend" Text="WYŚLIJ" OnClientClick="Send(); return false;" runat="server" />
                     </asp:Panel>
+                    </div>
                 </div>
             </div>
         </div>

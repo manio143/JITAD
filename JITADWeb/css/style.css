@@ -144,11 +144,12 @@ input, textarea { background: rgba(255,255,255,.1); outline: none; border: none;
 
 input:focus, textarea:focus { background: rgba(255,255,255,.2);}
 
-input { width: 50%;}
+input { width: 50%; color:black;}
 #login input { width: 100%; border: 1px solid #ccc;}
 #usrData input { width: 100%; border: 1px solid #ccc;}
 #passChg input { width: 100%; border: 1px solid #ccc;}
 #query input { width: 100%; border: 1px solid #ccc; margin-bottom: 3px;}
+#contactFrm input {color: #ccc;}
 input[type=submit] { width: 100% !important; margin-top: 10px; background: #000; color: #fff;}
 input[type=submit]:hover { background-color: #111;}
 textarea { width: 100%; min-width: 100%; max-width: 50%;}
@@ -163,4 +164,22 @@ textarea { width: 100%; min-width: 100%; max-width: 50%;}
 ===============================*/
 @media (min-width: 800px) and (max-width: 1300px) {
 	.container { max-width: 900px;}
+}
+
+/* Placeholders lighter than text
+==================================*/
+*::-webkit-input-placeholder {
+    color: #ccc;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #ccc;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #ccc;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #ccc;
 }
