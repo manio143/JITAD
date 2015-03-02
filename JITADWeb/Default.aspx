@@ -109,16 +109,16 @@
     <article id="topics">
         <div class="container">
             <h2>GŁÓWNE TEMATY</h2>
-            <h3>O czym będziemy dyskutowali?</h3>
+            <h3>O czym będziemy rozmawiali?</h3>
             <div class="frame">
                 <div class="bit-3">
-                    <img src="./images/windows-phone.png" /><h4>Lorem Ipsum</h4>
+                    <img src="./images/windows-phone.png" /><h4>Mobile</h4>
                 </div>
                 <div class="bit-3">
-                    <img src="./images/cloud-computing.png" /><h4>Lorem Ipsum</h4>
+                    <img src="./images/cloud-computing.png" /><h4>Microsoft Azure</h4>
                 </div>
                 <div class="bit-3">
-                    <img src="./images/windows.png" /><h4>Lorem Ipsum</h4>
+                    <img src="./images/windows.png" /><h4>Desktop apps</h4>
                 </div>
             </div>
         </div>
