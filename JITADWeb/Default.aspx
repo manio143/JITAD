@@ -7,7 +7,7 @@
             <div class="logo">
                 <h1>JITAD</h1>
             </div>
-            <p>09 / 04 / 2015</p>
+            <p>21 / 04 / 2015</p>
             <!--<p>POZOSTAŁO</p>
 	            <table>
 		            <tr><td>12</th><td>14</th><td>23</td></tr>

@@ -44,6 +44,13 @@
                "<a href='/Konto/'>Moje konto</a>" +
                "<a href='/Konto/webauth?logout=1'>Wyloguj</a>");
            }
+           else
+           {
+               Response.Write(
+               "<a href='/Konto/Zaloguj'>Zaloguj się</a>" +
+               "<a href='/Konto/Zaloguj'>Zarejestruj się</a>");
+           }
+           
         %>
         <!-- more -->
     </nav>
@@ -52,7 +59,9 @@
         <div class="menu frame">
             <div class="bit-75">
                 <label for="main-nav-check" class="toggle-menu">
-                    <img src="/Images/menu.svg" alt="menu" /></label>
+                    <img src="/Images/menu.svg" alt="menu" />
+                    <a class="menu-text">MENU</a>
+                </label>
             </div>
             <div class="bit-25">
                 <% if (Session["CurrentUser"] == null && !Request.RawUrl.Contains("/Konto/Zaloguj")) Response.Write(
