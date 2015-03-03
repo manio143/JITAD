@@ -38,14 +38,22 @@
             <p>POZOSTAŁO</p>
             <table>
                 <tr>
-                    <td id="TLD">XX</td>
-                    <td id="TLH">YY</td>
-                    <td id="TLM">ZZ</td>
+                    <td id="TLD">DD</td>
+                    <td>:</td>
+                    <td id="TLH">HH</td>
+                    <td>:</td>
+                    <td id="TLM">MM</td>
+                    <td>:</td>
+                    <td id="TLS">SS</td>
                 </tr>
                 <tr>
                     <td>Dni</td>
+                    <td></td>
                     <td>Godzin</td>
-                    <td>Minuty</td>
+                    <td></td>
+                    <td>Minut</td>
+                    <td></td>
+                    <td>Sekund</td>
                 </tr>
             </table>
         </div>
@@ -149,17 +157,17 @@
                 <div class="bit-2"></div>
                 <div class="bit-2">
                     <div id="contactFrm">
-                    <asp:ScriptManager ID="KontaktScriptManager" runat="server" EnablePageMethods="true" ScriptMode="Debug" />
+                        <asp:ScriptManager ID="KontaktScriptManager" runat="server" EnablePageMethods="true" ScriptMode="Debug" />
 
-                    <asp:Panel ID="pnKontakt" DefaultButton="btnSend" runat="server">
-                        <asp:Label ID="lblResult" Style="display: none; font-weight: bold" runat="server" /><br />
-                        <asp:TextBox ID="txtEmail" placeholder="E-mail" runat="server" required />
-                        <asp:TextBox ID="txtTitle" placeholder="Tytuł" runat="server" required />
-                        <br />
-                        <asp:TextBox ID="txtMssg" runat="server" placeholder="Wiadomość" TextMode="MultiLine" Columns="20" Rows="10" required />
-                        <br />
-                        <asp:Button ID="btnSend" Text="WYŚLIJ" OnClientClick="Send(); return false;" runat="server" />
-                    </asp:Panel>
+                        <asp:Panel ID="pnKontakt" DefaultButton="btnSend" runat="server">
+                            <asp:Label ID="lblResult" Style="display: none; font-weight: bold" runat="server" /><br />
+                            <asp:TextBox ID="txtEmail" placeholder="E-mail" runat="server" required />
+                            <asp:TextBox ID="txtTitle" placeholder="Tytuł" runat="server" required />
+                            <br />
+                            <asp:TextBox ID="txtMssg" runat="server" placeholder="Wiadomość" TextMode="MultiLine" Columns="20" Rows="10" required />
+                            <br />
+                            <asp:Button ID="btnSend" Text="WYŚLIJ" OnClientClick="Send(); return false;" runat="server" />
+                        </asp:Panel>
                     </div>
                 </div>
             </div>
@@ -216,14 +224,16 @@
         function setDate() {
             var t_date = new DateTime(2015, 4, 21, 9, 0, 0);
             t_date = t_date.subtractDate(DateTime.now());
-            var d = t_date.days();
-            var h = t_date.hours();
-            var m = t_date.minutes();
-            console.log(d + " " + h + " " + m);
+            var d = t_date.days(); d = d == 0 ? "00" : d;
+            var h = t_date.hours(); h = h == 0 ? "00" : h;
+            var m = t_date.minutes(); m = m == 0 ? "00" : m;
+            var s = t_date.seconds(); s = s == 0 ? "00" : s;
+            //console.log(d + " " + h + " " + m);
             document.getElementById("TLD").innerHTML = d;
             document.getElementById("TLH").innerHTML = h;
             document.getElementById("TLM").innerHTML = m;
-            setTimeout(setDate, 60000);
+            document.getElementById("TLS").innerHTML = s;
+            setTimeout(setDate, 1000);
         }
     </script>
 </asp:Content>
