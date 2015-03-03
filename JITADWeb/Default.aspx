@@ -224,10 +224,15 @@
         function setDate() {
             var t_date = new DateTime(2015, 4, 21, 9, 0, 0);
             t_date = t_date.subtractDate(DateTime.now());
-            var d = t_date.days(); d = d == 0 ? "00" : d;
-            var h = t_date.hours(); h = h == 0 ? "00" : h;
-            var m = t_date.minutes(); m = m == 0 ? "00" : m;
-            var s = t_date.seconds(); s = s == 0 ? "00" : s;
+            var d = t_date.days(); 
+            var h = t_date.hours();   
+            var m = t_date.minutes(); 
+            var s = t_date.seconds();
+            var passed = d <= 0 && h <= 0 && m <= 0 && s <= 0;
+            h = h < 10 ? "0" + h : h;
+            m = m < 10 ? "0" + m : m;
+            s = s < 10 ? "0" + s : s;
+            if (passed) { d = 0; h = m = s = "00"; }
             //console.log(d + " " + h + " " + m);
             document.getElementById("TLD").innerHTML = d;
             document.getElementById("TLH").innerHTML = h;
