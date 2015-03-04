@@ -20,8 +20,24 @@ nav { text-align: center;}
      50% {background-color: #7eb55a;}
      100% {background-color: #d95338;}
 }
+@keyframes pulse {
+      0% {background-color: #65d0ff;}
+     50% {background-color: #7eb55a;}
+     100% {background-color: #d95338;}
+}
+@-webkit-keyframes pulse-text {
+      0% {color: #65d0ff;}
+     50% {color: #7eb55a;}
+     100% {color: #d95338;}
+}
 
-header { padding: 150px 0px; -webkit-animation: pulse 10s infinite alternate; background: #65d0ff; text-align: center; color: #fff;}
+@keyframes pulse-text {
+      0% {color: #65d0ff;}
+     50% {color: #7eb55a;}
+     100% {color: #d95338;}
+}
+
+header { padding: 150px 0px; -webkit-animation: pulse 10s infinite alternate; animation:pulse 10s infinite alternate; background: #65d0ff; text-align: center; color: #fff;}
 header p { opacity: .7; padding-bottom: 45px;}
 
 .container, .content { width: 100%; max-width: 1200px; margin: 0 auto;}
@@ -70,7 +86,7 @@ a { text-decoration: none;}
 a.sign-in-top { padding: 10px; position: relative; top: 25px; color: #ddd;}
 a.sign-up-top { padding: 10px; position: relative; top: 25px; color: #fff; background: #299dd0;}
 
-a.sign-up { padding: 20px; position: relative; top: 25px; color: #299dd0; background: #fff; border: 1px solid #fff; transition: all 0.1s ease;}
+a.sign-up { padding: 20px; position: relative; top: 25px; color: #299dd0; animation: pulse-text 10s infinite alternate; -webkit-animation: pulse-text 10s infinite alternate; background: #fff; border: 1px solid #fff; transition: all 0.1s ease;}
 a.sign-up:hover { padding: 20px; position: relative; top: 25px; color: #299dd0; border: 4px solid #fff;}
 
 a.menu-text {display: inline; position: relative; top: -25px; left: -5px; color:#a9a9a9; font-size: 1.4em;}
