@@ -5,15 +5,10 @@
     <header>
         <div class="container">
             <div class="logo">
-                <h1>JITAD</h1>
+                
             </div>
-            <p>21 / 04 / 2015</p>
-            <!--<p>POZOSTAŁO</p>
-	            <table>
-		            <tr><td>12</th><td>14</th><td>23</td></tr>
-		            <tr><td>Dni</td><td>Godzin</td><td>Minuty</td></tr>
-	            </table>
-	            -->
+            <h2>21 / 04 / 2015</h2>
+            <br />
             <a href="/Konto/Zaloguj" class="sign-up">ZAREJESTRUJ SIĘ</a>
         </div>
     </header>
@@ -35,7 +30,7 @@
 
     <article id="counter">
         <div class="container">
-            <p>POZOSTAŁO</p>
+            <h2>POZOSTAŁO</h2>
             <table>
                 <tr>
                     <td id="TLD">DD</td>
@@ -158,7 +153,7 @@
                 <div class="bit-2">
                     <div id="contactFrm">
                         <asp:ScriptManager ID="KontaktScriptManager" runat="server" EnablePageMethods="true" ScriptMode="Debug" />
-
+                        <h2>KONTAKT</h2>
                         <asp:Panel ID="pnKontakt" DefaultButton="btnSend" runat="server">
                             <asp:Label ID="lblResult" Style="display: none; font-weight: bold" runat="server" /><br />
                             <asp:TextBox ID="txtEmail" placeholder="E-mail" runat="server" required />

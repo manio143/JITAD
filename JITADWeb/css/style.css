@@ -51,6 +51,7 @@ header p { opacity: .7; padding-bottom: 45px;}
 #counter table  tr:first-of-type { font-size: 70px; font-weight: 300;}
 #counter table  tr:nth-child(even) {background: white; color:#96c278;}
 #counter table  td:nth-child(even) {background:#96c278;}
+
 #stats { padding: 120px 0px; text-align: center;}
 #stats .bit-4 { padding: 100px 0px 100px;}
 #stats .bit-4 p:first-of-type { font-size: 80px; color: #96c278; font-weight: 300;}
@@ -61,12 +62,12 @@ header p { opacity: .7; padding-bottom: 45px;}
 #profiles .bit-3 { background: #fff; border: 5px solid #857fcb;}
 #profiles .frame:first-of-type { margin-bottom: 30px;}
 #profiles h2, #profiles h3 { color: #fff; text-align: center;}
-#profiles h2 { opacity: .4; padding: 0px 0px 20px;}
+#profiles h2 { opacity: .5; padding: 0px 0px 20px;}
 #profiles h3 { padding: 0px 0px 100px;}
 #profiles img { width: 100%; height: auto;}
 
 #topics { text-align: center; padding: 80px 0px;}
-#topics h2 { opacity: .4; padding: 0px 0px 20px;}
+#topics h2 { opacity: .5; padding: 0px 0px 20px;}
 #topics h3 { padding: 0px 0px 60px; color: #0c6aba;}
 
 #agenda { text-align: center; padding: 80px 0px; border-top: 1px solid #ccc;}
@@ -75,7 +76,7 @@ header p { opacity: .7; padding-bottom: 45px;}
 
 footer { background: #222;}
 
-h2 { font-size: 16px; font-weight: 700;}
+h2 { font-size: 26px; font-weight: 500;}
 h3 { font-size: 60px; font-weight: 300; color: #1681b0; padding-bottom: 20px;}
 h4 { font-size: 22px; font-weight: 300; padding: 30px;}
 h2.adminHeader {font-size: 35px; font-weight: 700;}
