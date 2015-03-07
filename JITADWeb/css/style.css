@@ -94,6 +94,10 @@ a.sign-up:hover { padding: 20px; position: relative; top: 25px; color: #299dd0; 
 
 a.menu-text {display: inline-block; height:80px; color:black; opacity:.2; font-size: 1.4em; padding: 28px 0 0 75px; background-image:url("/Images/menu.svg"); background-repeat:no-repeat;}
 
+#main-nav a {margin:8px auto; width:70%; border-bottom:1px solid black;}
+#main-nav a:hover {width:80%; font-size:20px; transition:all .2s ease;}
+
+
 .toggle-menu img { width: 64px; height: 64px; opacity: .2;}
 
 .logo { background: url('../images/logo2.png') no-repeat; width: 500px; height: 223px; margin: 0 auto;}
