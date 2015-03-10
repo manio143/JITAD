@@ -71,6 +71,12 @@ header p { opacity: .7; padding-bottom: 45px;}
 #topics h3 { padding: 0px 0px 60px; color: #0c6aba;}
 
 #agenda { text-align: center; padding: 80px 0px; border-top: 1px solid #ccc;}
+#agenda table { margin: 0 auto; text-align: left; max-width: 700px;}
+#agenda table tr td { padding: 30px; border-bottom: 1px solid #ddd;}
+#agenda table tr td:first-of-type { font-size: 60px; color: #1681b0; font-weight: 300;}
+#agenda table tr td:last-of-type { padding-left: 60px;}
+#agenda h4 { padding: 0px; padding-bottom: 20px;}
+#agenda p { color: #bbb;}
 
 #login .bit-2 { padding: 30px;}
 

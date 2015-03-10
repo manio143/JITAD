@@ -5,7 +5,6 @@
     <header>
         <div class="container">
             <div class="logo">
-                
             </div>
             <h2>21 / 04 / 2015</h2>
             <br />
@@ -133,7 +132,37 @@
             <h3>Plan dnia</h3>
             <div class="frame">
                 <div class="bit-1">
-                    <img src="./images/agenda.png" />
+                    <table>
+                        <tr>
+                            <td>11:00</td>
+                            <td>
+                                <h4>Rejestracja uczestników</h4>
+                                <p>Krótki opis wydarzenia/wykładu/etc. Coś tam się będzie działo i będzie super fajnie tak ogólnie.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>11:00</td>
+                            <td>
+                                <h4>Rejestracja uczestników</h4>
+                                <p>Krótki opis wydarzenia/wykładu/etc. Coś tam się będzie działo i będzie super fajnie tak ogólnie.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>11:00</td>
+                            <td>
+                                <h4>Rejestracja uczestników</h4>
+                                <p>Krótki opis wydarzenia/wykładu/etc. Coś tam się będzie działo i będzie super fajnie tak ogólnie.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>11:00</td>
+                            <td>
+                                <h4>Rejestracja uczestników</h4>
+                                <p>Krótki opis wydarzenia/wykładu/etc. Coś tam się będzie działo i będzie super fajnie tak ogólnie.</p>
+                            </td>
+                        </tr>
+
+                    </table>
                 </div>
             </div>
             <a href="/Konto/Zaloguj" class="sign-up">ZAREJESTRUJ SIĘ</a>
@@ -219,9 +248,9 @@
         function setDate() {
             var t_date = new DateTime(2015, 4, 21, 9, 0, 0);
             t_date = t_date.subtractDate(DateTime.now());
-            var d = t_date.days(); 
-            var h = t_date.hours();   
-            var m = t_date.minutes(); 
+            var d = t_date.days();
+            var h = t_date.hours();
+            var m = t_date.minutes();
             var s = t_date.seconds();
             var passed = d <= 0 && h <= 0 && m <= 0 && s <= 0;
             h = h < 10 ? "0" + h : h;
