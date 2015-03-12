@@ -19,15 +19,36 @@
                 <asp:Panel ID="pnUserData" DefaultButton="btnApply" CssClass="frame" runat="server">
                     <h2>Twoje dane</h2>
                     <div>
+                        <asp:RequiredFieldValidator runat="server"
+                            ControlToValidate="txtName"
+                            ValidationGroup="usrData"
+                            ErrorMessage="* Pole wymagane."
+                            ForeColor="Red" />
                         <asp:TextBox ID="txtName" placeholder="Imię" runat="server" />
+                    </div>
+                    <div>
+                        <asp:RequiredFieldValidator runat="server"
+                            ControlToValidate="txtSurname"
+                            ValidationGroup="usrData"
+                            ErrorMessage="* Pole wymagane."
+                            ForeColor="Red" />
                         <asp:TextBox ID="txtSurname" placeholder="Nazwisko" runat="server" />
                     </div>
                     <div>
                         <a>Szkoła</a>
+                        <asp:CompareValidator 
+                            ControlToValidate="ddlSchools"
+                            ValidationGroup="usrData"
+                            ValueToCompare="Wybierz szkołę..."
+                            Operator="NotEqual"
+                            ErrorMessage="* Pole wymagane"
+                            ForeColor="Red"
+                            runat="server"
+                            />
                         <asp:DropDownList ID="ddlSchools" runat="server" Width="100%"></asp:DropDownList>
                     </div>
                     <div>
-                        <asp:Button ID="btnApply" Text="Zapisz" OnClick="btnApply_Click" runat="server" />
+                        <asp:Button ID="btnApply" Text="Zapisz" OnClick="btnApply_Click" CausesValidation="true" ValidationGroup="usrData" runat="server" />
                     </div>
                 </asp:Panel>
             </article>
