@@ -5,7 +5,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                JITAD
+                <h1>JITAD</h1>
             </div>
             <h2>21 / 04 / 2015</h2>
             <br />
@@ -19,7 +19,7 @@
             <h3>ITAD dla niewtajemniczonych</h3>
             <div class="frame">
                 <div class="bit-60">
-                    <p>Już 9 kwietnia odbędzie się kolejna konferencja Junior IT Academic Day. Każdy JITAD to przede wszystkim: prezentacje, dyskusje i mnóstwo nagród. Głównym tematem tegorocznej edycji będą usługi chmurowe, takie jak Microsoft Azure. Nie zabraknie prelekcji także na inne, ważne aktualnie, tematy związane z IT. W towarzystwie osób związanych z branżą znajdzie się też czas na pytania do prelegentów, poznanie nowych osób, przetestowanie nowego sprzętu mobilnego, dyskusję czy poznanie warunków panujących na wydziale. W przerwach pomiędzy atrakcjami będzie rozdawana pizza. Ponadto wśród uczestników rozlosowane zostaną nagrody m. in. koszulki i książki. Junior ITAD stanowi świetny sposób na wejście w świat informatyki lub poszerzenia swojej informatycznej wiedzy. Konferencja odbędzie się na Wydziale Matematyki, Informatyki, Mechaniki UW 21 kwietnia. </p>
+                    <p>Już 21 kwietnia odbędzie się kolejna konferencja Junior IT Academic Day. Każdy JITAD to przede wszystkim: prezentacje, dyskusje i mnóstwo nagród. Głównym tematem tegorocznej edycji będą usługi chmurowe, takie jak Microsoft Azure. Nie zabraknie prelekcji także na inne tematy związane z IT. W towarzystwie osób związanych z branżą znajdzie się też czas na pytania do prelegentów, poznanie nowych osób, przetestowanie nowego sprzętu mobilnego, dyskusję czy poznanie warunków panujących na wydziale. Ponadto wśród uczestników rozlosowane zostaną nagrody. Junior ITAD stanowi świetny sposób na wejście w świat informatyki lub poszerzenia swojej informatycznej wiedzy. Konferencja odbędzie się na Wydziale Matematyki, Informatyki i Mechaniki UW. </p>
                 </div>
                 <div class="bit-40">
                     <img src="./images/icons.png" class="icons-win" />
