@@ -11,7 +11,9 @@ namespace JITADWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            var agenda = new JITAD.UserStats().GetAgenda();
+            rpAgenda.DataSource = agenda;
+            rpAgenda.DataBind();
         }
 
         protected void btnRegister_Click(object sender, ImageClickEventArgs e)

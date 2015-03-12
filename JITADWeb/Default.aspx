@@ -132,37 +132,23 @@
             <h3>Plan dnia</h3>
             <div class="frame">
                 <div class="bit-1">
-                    <table>
-                        <tr>
-                            <td>11:00</td>
-                            <td>
-                                <h4>Rejestracja uczestników</h4>
-                                <p>Krótki opis wydarzenia/wykładu/etc. Coś tam się będzie działo i będzie super fajnie tak ogólnie.</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>11:00</td>
-                            <td>
-                                <h4>Rejestracja uczestników</h4>
-                                <p>Krótki opis wydarzenia/wykładu/etc. Coś tam się będzie działo i będzie super fajnie tak ogólnie.</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>11:00</td>
-                            <td>
-                                <h4>Rejestracja uczestników</h4>
-                                <p>Krótki opis wydarzenia/wykładu/etc. Coś tam się będzie działo i będzie super fajnie tak ogólnie.</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>11:00</td>
-                            <td>
-                                <h4>Rejestracja uczestników</h4>
-                                <p>Krótki opis wydarzenia/wykładu/etc. Coś tam się będzie działo i będzie super fajnie tak ogólnie.</p>
-                            </td>
-                        </tr>
-
-                    </table>
+                    <asp:Repeater ID="rpAgenda" runat="server">
+                        <HeaderTemplate>
+                            <table>
+                        </HeaderTemplate>
+                        <ItemTemplate>
+                            <tr>
+                                <td><%#Eval("Hour", "{0:hh\\:mm}") %></td>
+                                <td>
+                                    <h4><%#Eval("Title") %></h4>
+                                    <p><%#Eval("Description") %></p>
+                                </td>
+                            </tr>
+                        </ItemTemplate>
+                        <FooterTemplate>
+                            </table>
+                        </FooterTemplate>
+                    </asp:Repeater>
                 </div>
             </div>
             <a href="/Konto/Zaloguj" class="sign-up">ZAREJESTRUJ SIĘ</a>
