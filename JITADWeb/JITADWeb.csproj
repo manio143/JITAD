@@ -84,6 +84,8 @@
     <Content Include="Images\logo.png" />
     <Content Include="Images\logo1.png" />
     <Content Include="Images\logo2.png" />
+    <Content Include="Images\logo_tlo.svg" />
+    <Content Include="Images\logo_tlo_biale.svg" />
     <Content Include="Images\menu.svg" />
     <Content Include="Images\microsoft.png" />
     <Content Include="Images\profile-1.jpg" />
