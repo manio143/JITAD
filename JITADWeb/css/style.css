@@ -100,7 +100,7 @@ a.sign-up-top { padding: 10px; position: relative; top: 25px; color: #fff; backg
 a.sign-up { padding: 20px; position: relative; top: 25px; color: #299dd0; animation: pulse-text 10s infinite alternate; -webkit-animation: pulse-text 10s infinite alternate; background: #fff; border: 1px solid #fff; transition: all 0.1s ease;}
 a.sign-up:hover { padding: 20px; position: relative; top: 25px; color: #299dd0; border: 4px solid #fff;}
 
-a.menu-text {display: inline-block; height:80px; color:black; opacity:.2; font-size: 1.4em; padding: 28px 0 0 75px; background-image:url("/Images/menu.svg"); background-repeat:no-repeat;}
+a.menu-text { display: inline-block; height:80px; color:black; opacity:.2; font-size: 1.4em; padding: 28px 0 0 85px; background-image:url("/Images/menu.svg"); background-repeat:no-repeat; cursor: pointer; }
 
 /*#main-nav a {margin:8px auto; width:70%; border-bottom:1px solid black;}
 #main-nav a:hover {width:80%; font-size:20px; transition:all .2s ease;}*/
@@ -111,8 +111,8 @@ a.menu-text {display: inline-block; height:80px; color:black; opacity:.2; font-s
 
 .toggle-menu img { width: 64px; height: 64px; opacity: .2;}
 
-
-.logo { background: url('../images/logo2.png') no-repeat; background-image: url('../images/logo_przezroczyste_svg.svg'), none; background-size:contain; width: 500px; height: 223px; margin: 0 auto;}
+header .container { padding-top: 30px; }
+.logo { background: url('../images/logo2.png') no-repeat; background-image: url('../images/logo_przezroczyste_svg.svg'), none; background-size: contain; background-position: center; width: 500px; height: 223px; margin: 0 auto;}
 
 .logo h1 { text-indent: -9999px;}
 
