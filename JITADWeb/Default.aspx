@@ -168,8 +168,7 @@
 	</div>
 	<div class="frame">
 	<div class="bit-2">
-	<h2>Kontakt</h2>
-	<p>mmdmdm</p>
+	<h2>.</h2>
 	</div>
                 <div class="bit-2">
                     <div id="contactFrm">
