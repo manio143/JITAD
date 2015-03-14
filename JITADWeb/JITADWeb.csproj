@@ -85,6 +85,7 @@
     <Content Include="Images\logo1.png" />
     <Content Include="Images\logo2.png" />
     <Content Include="Images\logo3.png" />
+    <Content Include="Images\logo_bez_tekstu.svg" />
     <Content Include="Images\logo_przezroczyste_svg.svg" />
     <Content Include="Images\logo_tlo.svg" />
     <Content Include="Images\logo_tlo_biale.svg" />
