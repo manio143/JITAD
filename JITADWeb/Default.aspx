@@ -158,14 +158,19 @@
 
     <footer>
         <div class="container">
-            <img src="images/microsoft.png" class="microsoft" />
-            <div class="frame">
-                <div class="bit-3">.</div>
-                <div class="bit-3">.</div>
-                <div class="bit-3">.</div>
-            </div>
-            <div class="frame">
-                <div class="bit-2"></div>
+	<div class="frame">
+		<div class="bit-1 microsoft"><img src="images/microsoft.png" alt="Microsoft"/></div>
+	</div>
+	<div class="frame">
+		<div class="bit-3">.</div>
+		<div class="bit-3">.</div>
+		<div class="bit-3">.</div>
+	</div>
+	<div class="frame">
+	<div class="bit-2">
+	<h2>Kontakt</h2>
+	<p>mmdmdm</p>
+	</div>
                 <div class="bit-2">
                     <div id="contactFrm">
                         <asp:ScriptManager ID="KontaktScriptManager" runat="server" EnablePageMethods="true" ScriptMode="Debug" />
