@@ -7,7 +7,7 @@ margin: 0; padding: 0;
   
 article, aside, footer, header, nav, section, figure, figcaption { display: block;}
 html, body { margin: 0px; padding: 0px; min-height: 100%;}
-body { font-family: 'Lato', sans-serif; font-size: 18px; background: #fff;}
+body { font-family: 'Microsoft YaHei UI', 'Microsoft YaHei', 'MS YaHei', 'Lato', 'Helvetica', 'Arial' sans-serif; font-size: 18px; background: #fff;}
 
 header, article, footer, aside, .frame { width: 100%;}
 
