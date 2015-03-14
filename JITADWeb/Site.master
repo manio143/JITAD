@@ -33,7 +33,6 @@
 
     <input type="checkbox" class="main-nav-check" id="main-nav-check" />
     <nav class="main-nav" id="main-nav">
-        <img src="/Images/logo1.png" style="width: 40%; height: auto;" /><br />
         <a href="/">Strona główna</a>
         <% var usr = (JITAD.User)Session["CurrentUser"];
            if (usr != null)
