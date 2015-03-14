@@ -22,15 +22,15 @@ namespace JITADWeb.Konto
             if (login != null)
             {
                 string[] scopes = new string[] { "wl.signin", "wl.basic" };
-                string loginUrl = liveAuthClient.GetLoginUrl(scopes, "http://jitad-draft.azurewebsites.net/Konto/webauth");
+                string loginUrl = liveAuthClient.GetLoginUrl(scopes, "https://jitad2015.waw.pl/Konto/webauth");
                 Response.Redirect(loginUrl, true);
             }
             if (logout != null)
             {
                 if (returnUrl != null) returnUrl = "&ReturnUrl=" + returnUrl;
-                string logoutUrl = "http://jitad-draft.azurewebsites.net/Konto/webauth?l=1" + returnUrl;
+                string logoutUrl = "https://jitad2015.waw.pl/Konto/webauth?l=1" + returnUrl;
                 if (logout == "2") goto noneMS;
-                logoutUrl = liveAuthClient.GetLogoutUrl("http://jitad-draft.azurewebsites.net/Konto/webauth?l=1" + returnUrl);
+                logoutUrl = liveAuthClient.GetLogoutUrl("https://jitad2015.waw.pl/Konto/webauth?l=1" + returnUrl);
                 liveAuthClient.ClearSession(new HttpContextWrapper(Context));
             noneMS:
                 Session.Abandon();
