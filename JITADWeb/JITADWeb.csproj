@@ -85,6 +85,7 @@
     <Content Include="Images\agenda.png" />
     <Content Include="Images\cloud-computing.png" />
     <Content Include="Images\icons.png" />
+	<Content Include="Images\kamil-stachowicz.png" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\logo1.png" />
