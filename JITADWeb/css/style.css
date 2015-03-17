@@ -11,7 +11,7 @@ body { font-family: 'Microsoft YaHei UI', 'Microsoft YaHei', 'MS YaHei', 'Lato',
 
 header, article, footer, aside, .frame { width: 100%;}
 
-.menu { position: fixed; top: 0; background: #fff; height: 80px; font-weight: 400; font-size: 14px; z-index: 99; padding: 0px 20px;}
+.menu { position: fixed; top: 0; background: #fff; height: 80px; font-weight: 400; font-size: 14px; z-index: 99; padding: 0px 20px; border-bottom: 1px solid #ccc;}
 .menu .bit-50:last-of-type { text-align: right; }
 
 nav { text-align: center;}
