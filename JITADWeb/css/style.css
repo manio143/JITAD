@@ -7,7 +7,7 @@ margin: 0; padding: 0;
   
 article, aside, footer, header, nav, section, figure, figcaption { display: block;}
 html, body { margin: 0px; padding: 0px; min-height: 100%;}
-body { font-family: 'Microsoft YaHei UI', 'Microsoft YaHei', 'MS YaHei', 'Lato', 'Helvetica', 'Arial' sans-serif; font-size: 18px; background: #fff;}
+body { font-family: 'Microsoft YaHei UI', 'Microsoft YaHei', 'MS YaHei', 'Lato', 'Helvetica', 'Arial', sans-serif; font-size: 18px; background: #fff;}
 
 header, article, footer, aside, .frame { width: 100%;}
 
@@ -222,4 +222,10 @@ textarea { width: 100%; min-width: 100%; max-width: 50%;}
 *:-ms-input-placeholder {
     /* IE 10+ */
     color: #ccc;
+}
+@font-face {
+font-family: "Microsoft YaHei UI";
+src: url('fonts/msyh.ttc')  format('truetype'),
+    url('fonts/msyhbd.ttc') format('truetype'),
+    url('fonts/msyhl.ttc') format('truetype');
 }

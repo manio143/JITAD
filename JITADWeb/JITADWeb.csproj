@@ -102,6 +102,9 @@
     <Content Include="Images\windows.png" />
     <Content Include="Konto\Default.aspx" />
     <Content Include="Admin\Admin.master" />
+    <Content Include="css\fonts\msyh.ttc" />
+    <Content Include="css\fonts\msyhbd.ttc" />
+    <Content Include="css\fonts\msyhl.ttc" />
     <None Include="Scripts\jquery-2.1.3.intellisense.js" />
     <Content Include="Konto\webauth.aspx" />
     <Content Include="PermissionDenied.aspx" />
