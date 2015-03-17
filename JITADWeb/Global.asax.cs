@@ -122,6 +122,7 @@ namespace JITADWeb
             else if (pageTitle == "Użytkownicy") page = 'A';
             else if (pageTitle == "Arrived") page = 'P';
             else if (pageTitle == "Wiadomości") page = 'M';
+            else if (pageTitle == "Losowanie") page = 'L';
 
             string R = "<h3 class=\"adminHeader\">";
             if (page != 'S') R += "<a href=\"/Admin/\">Statystyki</a>  ";
@@ -132,6 +133,8 @@ namespace JITADWeb
             else R += "Arrived  ";
             if (page != 'M') R += "<a href=\"/Admin/Wiadomości\">Wiadomości</a>  ";
             else R += "Wiadomości  ";
+            if (page != 'L') R += "<a href=\"/Admin/Losowanie\">Losowanie</a>  ";
+            else R += "Losowanie  ";
 
             R += "</h3>";
 

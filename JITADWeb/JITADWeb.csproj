@@ -46,6 +46,10 @@
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Live.Web, Version=5.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -65,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\Arrived.aspx" />
+    <Content Include="Admin\Losowanie.aspx" />
     <Content Include="Admin\Użytkownicy.aspx" />
     <Content Include="Admin\UserQuery.aspx" />
     <Content Include="Admin\Default.aspx" />
@@ -145,6 +150,13 @@
     </Compile>
     <Compile Include="Admin\Arrived.aspx.designer.cs">
       <DependentUpon>Arrived.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Losowanie.aspx.cs">
+      <DependentUpon>Losowanie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Losowanie.aspx.designer.cs">
+      <DependentUpon>Losowanie.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Użytkownicy.aspx.cs">
       <DependentUpon>Użytkownicy.aspx</DependentUpon>
