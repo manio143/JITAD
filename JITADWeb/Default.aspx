@@ -86,7 +86,7 @@
             <h3>Poznaj kto poprowadzi wykłady</h3>
             <div class="frame">
                 <div class="bit-3">
-                    <img src="./images/profile-1.jpg" /><h4>Lorem Ipsum</h4>
+                    <img src="http://kolor.org.pl/JITAD/images/kamil-stachowicz.png" /><h4>Kamil Stachowicz</h4><h5>Academic Program Manager | Microsoft</h5><p>Od 5 lat związany z programami Student Partner i Student Consultant. Były lider Grupy .NET Uniwersytetu Gdańskiego, wielokrotny finalista Imagine Cup oraz współtwórca startupów Linxi i Defii.co. Prelegent i trener na największych technologicznych wydarzeniach uczelnianych w Polsce. Pasjonat najnowszych technologii, trendów mobilnych i startupów.</p>
                 </div>
                 <div class="bit-3">
                     <img src="./images/profile-2.jpg" /><h4>Lorem Ipsum</h4>
