@@ -162,6 +162,7 @@ Wiceprezes Fundacji Aegis <a href="http://www.aegis.org.pl">www.aegis.org.pl</a>
         <div class="container">
 	<div class="frame">
 		<div class="bit-1 microsoft"><img src="images/microsoft.png" alt="Microsoft"/></div>
+        <div class="bit-2"><img src="Images/logo_exertum.jpg" alt="Exertum" /></div>
 	</div>
 	<div class="frame">
 		<div class="bit-3">.</div>
