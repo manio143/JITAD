@@ -85,13 +85,14 @@
     <Content Include="Images\agenda.png" />
     <Content Include="Images\cloud-computing.png" />
     <Content Include="Images\icons.png" />
-	<Content Include="Images\kamil-stachowicz.png" />
+    <Content Include="Images\kamil-stachowicz.png" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\logo1.png" />
     <Content Include="Images\logo2.png" />
     <Content Include="Images\logo3.png" />
     <Content Include="Images\logo_bez_tekstu.svg" />
+    <Content Include="Images\logo_exertum.jpg" />
     <Content Include="Images\logo_przezroczyste_svg.svg" />
     <Content Include="Images\logo_tlo.svg" />
     <Content Include="Images\logo_tlo_biale.svg" />
@@ -103,6 +104,7 @@
     <Content Include="Images\profile-4.jpg" />
     <Content Include="Images\profile-5.jpg" />
     <Content Include="Images\profile-6.jpg" />
+    <Content Include="Images\ryszard-dalkowski.jpg" />
     <Content Include="Images\stats.png" />
     <Content Include="Images\windows-phone.png" />
     <Content Include="Images\windows.png" />
@@ -120,7 +122,6 @@
     <Content Include="Scripts\jquery.lazyload.js" />
     <Content Include="Site.master" />
     <Content Include="packages.config" />
-    <Content Include="Site.Mobile.Master" />
     <None Include="Properties\PublishProfiles\jitad__draft.pubxml" />
     <Content Include="Scripts\jquery-2.1.3.min.map" />
     <None Include="Web.Debug.config">
@@ -244,13 +245,6 @@
     <Compile Include="Site.master.cs">
       <DependentUpon>Site.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site.Mobile.Master.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site.Mobile.Master.designer.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
