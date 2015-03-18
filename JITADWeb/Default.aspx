@@ -89,7 +89,9 @@
                     <img src="./images/kamil-stachowicz.png" /><h4>Kamil Stachowicz</h4><h5>Academic Program Manager | Microsoft</h5><p>Od 5 lat związany z programami Student Partner i Student Consultant. Były lider Grupy .NET Uniwersytetu Gdańskiego, wielokrotny finalista Imagine Cup oraz współtwórca startupów Linxi i Defii.co. Prelegent i trener na największych technologicznych wydarzeniach uczelnianych w Polsce. Pasjonat najnowszych technologii, trendów mobilnych i startupów.</p>
                 </div>
                 <div class="bit-3">
-                    <img src="./images/profile-2.jpg" /><h4>Lorem Ipsum</h4>
+                    <img src="./images/ryszard-dalkowski.jpg" /><h4>Ryszard Dałkowski</h4><h5>Niezależny konsultant i trener</h5><p>Były pracownik Microsoft z ponad 18-letnim stażem w korporacji w różnych rolach – technicznych, marketingowych, kierownika projektu i menadżera zespołu sprzedaży rozwiązań wspomagania biznesu.
+Odpowiedzialny, m.in. za przygotowanie uzasadnienia biznesowego dla pierwszej polskiej lokalizacji oprogramowania Microsoft Windows Server. Wcześniej związany zarówno z firmami, które informatyki używały jako narzędzia, jak i z firmami oferującymi systemy informatyczne. Doświadczenia pozatechniczne to, m.in. prowadzony w roku 1995 projekt komputerowej obsługi studia wyborczego TVP w czasie wyborów prezydenckich oraz trzyletni, niekomercyjny projekt „community development” (zmiany postrzegania firmy Microsoft wśród pracowników branży informatycznej). Przez ostatnie 4 lata w Microsoft odpowiadał za strategię współpracy i rozwoju otwartego oprogramowania na platformie cloud computing Microsoft Azure.
+Wiceprezes Fundacji Aegis <a href="http://www.aegis.org.pl">www.aegis.org.pl</a>.</p>
                 </div>
                 <div class="bit-3">
                     <img src="./images/profile-3.jpg" /><h4>Lorem Ipsum</h4>
