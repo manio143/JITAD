@@ -52,6 +52,7 @@ header p { opacity: .7; padding-bottom: 45px;}
 #counter table  td { padding: 10px;}
 #counter table  tr:first-of-type { font-size: 70px; font-weight: 300;}
 #counter table  tr:nth-child(even) {background: white; color:#96c278;}
+#counter table  td:nth-child(odd) { min-width:100px;}
 #counter table  td:nth-child(even) {background:#96c278;}
 
 #stats { padding: 120px 0px; text-align: center;}
