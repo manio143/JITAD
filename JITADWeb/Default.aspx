@@ -93,11 +93,14 @@
                     <h4>Ryszard Dałkowski</h4>
                     <h5>Niezależny konsultant i trener</h5>
                     <p>Były pracownik Microsoft z ponad 18-letnim stażem w korporacji w różnych rolach – technicznych, marketingowych, kierownika projektu i menadżera zespołu sprzedaży rozwiązań wspomagania biznesu.
-Odpowiedzialny, m.in. za przygotowanie uzasadnienia biznesowego dla pierwszej polskiej lokalizacji oprogramowania Microsoft Windows Server. Wcześniej związany zarówno z firmami, które informatyki używały jako narzędzia, jak i z firmami oferującymi systemy informatyczne. Przez ostatnie 4 lata w Microsoft odpowiadał za strategię współpracy i rozwoju otwartego oprogramowania na platformie cloud computing Microsoft Azure.
+Odpowiedzialny, m.in. za przygotowanie uzasadnienia biznesowego dla pierwszej polskiej lokalizacji oprogramowania Microsoft Windows Server. Przez ostatnie 4 lata w Microsoft odpowiadał za strategię współpracy i rozwoju otwartego oprogramowania na platformie cloud computing Microsoft Azure.
 Wiceprezes Fundacji Aegis <a href="http://www.aegis.org.pl">www.aegis.org.pl</a>.</p>
                 </div>
                 <div class="bit-3">
-                    <img src="./images/person-blank.png" /><h4>To be announced</h4>
+                    <img src="./images/janusz-jablonowski.jpg" /><h4>dr Janusz Jabłonowski</h4><h5>Zastępca Dyr. Instytutu Informatyki na Wydziale
+Matematyki, Informatyki i Mechaniki UW</h5><p>Prowadzi na MIMUW zajęcia z przedmiotów programistycznych.
+Zainteresowania:  programowanie obiektowe, języki programowania i
+półautomatyczne dowodzenie własności programów.</p>
                 </div>
             </div>
             <div class="frame">
