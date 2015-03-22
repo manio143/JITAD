@@ -54,29 +54,32 @@
         </div>
     </article>
 
-    <article id="stats">
+    <article id="agenda">
         <div class="container">
-            <h2>STATYSTYKA</h2>
-            <h3>Konferencja w liczbach</h3>
+            <h2>AGENDA</h2>
+            <h3>Plan dnia</h3>
             <div class="frame">
-                <div class="bit-4">
-                    <p>5</p>
-                    <p>PRELEGENTÓW</p>
-                </div>
-                <div class="bit-4">
-                    <p>25</p>
-                    <p>GODZIN</p>
-                </div>
-                <div class="bit-4">
-                    <p>300</p>
-                    <p>MIEJSC</p>
-                </div>
-                <div class="bit-4">
-                    <p>300</p>
-                    <p>NAGRÓD</p>
+                <div class="bit-1">
+                    <asp:Repeater ID="rpAgenda" runat="server">
+                        <HeaderTemplate>
+                            <table>
+                        </HeaderTemplate>
+                        <ItemTemplate>
+                            <tr>
+                                <td><%#Eval("Hour", "{0:hh\\:mm}") %></td>
+                                <td>
+                                    <h4><%#Eval("Title") %></h4>
+                                    <p><%#Eval("Description") %></p>
+                                </td>
+                            </tr>
+                        </ItemTemplate>
+                        <FooterTemplate>
+                            </table>
+                        </FooterTemplate>
+                    </asp:Repeater>
                 </div>
             </div>
-            <img src="./images/stats.png" />
+            <a href="/Konto/Zaloguj" class="sign-up">ZAREJESTRUJ SIĘ</a>
         </div>
     </article>
 
@@ -135,32 +138,29 @@ półautomatyczne dowodzenie własności programów.</p>
         </div>
     </article>
 
-    <article id="agenda">
+    <article id="stats">
         <div class="container">
-            <h2>AGENDA</h2>
-            <h3>Plan dnia</h3>
+            <h2>STATYSTYKA</h2>
+            <h3>Konferencja w liczbach</h3>
             <div class="frame">
-                <div class="bit-1">
-                    <asp:Repeater ID="rpAgenda" runat="server">
-                        <HeaderTemplate>
-                            <table>
-                        </HeaderTemplate>
-                        <ItemTemplate>
-                            <tr>
-                                <td><%#Eval("Hour", "{0:hh\\:mm}") %></td>
-                                <td>
-                                    <h4><%#Eval("Title") %></h4>
-                                    <p><%#Eval("Description") %></p>
-                                </td>
-                            </tr>
-                        </ItemTemplate>
-                        <FooterTemplate>
-                            </table>
-                        </FooterTemplate>
-                    </asp:Repeater>
+                <div class="bit-4">
+                    <p>5</p>
+                    <p>PRELEGENTÓW</p>
+                </div>
+                <div class="bit-4">
+                    <p>25</p>
+                    <p>GODZIN</p>
+                </div>
+                <div class="bit-4">
+                    <p>300</p>
+                    <p>MIEJSC</p>
+                </div>
+                <div class="bit-4">
+                    <p>300</p>
+                    <p>NAGRÓD</p>
                 </div>
             </div>
-            <a href="/Konto/Zaloguj" class="sign-up">ZAREJESTRUJ SIĘ</a>
+            <img src="./images/stats.png" />
         </div>
     </article>
 
