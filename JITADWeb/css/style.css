@@ -54,7 +54,7 @@ header p { opacity: .7; padding-bottom: 45px;}
 #counter table  tr:nth-child(even) {background: white; color:#96c278;}
 #counter table  td:nth-child(even) {background:#96c278;}
 
-#stats { padding: 120px 0px; text-align: center;}
+#stats { padding: 120px 0px; text-align: center; border-top: 1px solid #ccc; }
 #stats .bit-4 { padding: 100px 0px 100px;}
 #stats .bit-4 p:first-of-type { font-size: 80px; color: #96c278; font-weight: 300;}
 #stats .bit-4 p { font-size: 14px; color: #de3a3a;}
@@ -76,7 +76,7 @@ header p { opacity: .7; padding-bottom: 45px;}
 #topics h2 { opacity: .5; padding: 0px 0px 20px;}
 #topics h3 { padding: 0px 0px 60px; color: #0c6aba;}
 
-#agenda { text-align: center; padding: 80px 0px; border-top: 1px solid #ccc;}
+#agenda { text-align: center; padding: 80px 0px;}
 #agenda table { margin: 0 auto; text-align: left; max-width: 700px;}
 #agenda table tr td { padding: 30px; border-bottom: 1px solid #ddd;}
 #agenda table tr td:first-of-type { font-size: 60px; color: #1681b0; font-weight: 300;}
