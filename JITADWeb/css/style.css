@@ -56,9 +56,9 @@ header p { opacity: .7; padding-bottom: 45px;}
 #counter table  td:nth-child(even) {background:#96c278;}
 
 #stats { padding: 120px 0px; text-align: center; border-top: 1px solid #ccc; }
-#stats .bit-4 { padding: 100px 0px 100px;}
-#stats .bit-4 p:first-of-type { font-size: 80px; color: #96c278; font-weight: 300;}
-#stats .bit-4 p { font-size: 14px; color: #de3a3a;}
+#stats .frame>div { float: left; width: 14.2%; padding: 100px 0px 60px; }
+#stats .frame>div p:first-of-type { font-size: 80px; color: #96c278; font-weight: 300;}
+#stats .frame>div p { font-size: 14px; color: #de3a3a;}
 #stats h2 { padding: 0px 0px 20px;}
 
 #profiles { background: #857fcb; padding: 80px 0px;}

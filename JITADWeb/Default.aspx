@@ -120,6 +120,48 @@ półautomatyczne dowodzenie własności programów.</p>
         </div>
     </article>
 
+    <article id="stats">
+        <div class="container">
+            <h2>STATYSTYKA</h2>
+            <h3>Konferencja w liczbach</h3>
+            <div class="frame">
+                <div class="bit-4">
+                    <p>1</p>
+                    <p>DZIEŃ</p>
+                </div>
+                <div>
+                    <p>5</p>
+                    <p>PRELEKCJI</p>
+                </div>
+                <div>
+                    <p>7</p>
+                    <p>GODZIN</p>
+                </div>
+                <div>
+                    <p>14</p>
+                    <p>ORGANIZATORÓW</p>
+                </div>
+                <div>
+                    <p>100</p>
+                    <p>NAGRÓD</p>
+                </div>
+                <div>
+                    <p>300</p>
+                    <p>MIEJSC</p>
+                </div>
+                <div>
+                    <p>+&#8734;</p>
+                    <p>WIEDZY</p>
+                </div>
+            </div>
+            <img src="./images/stats.png" />
+        </div>
+    </article>
+
+    <article id="map">
+
+    </article>
+
     <article id="topics">
         <div class="container">
             <h2>TEMATYKA</h2>
@@ -138,30 +180,12 @@ półautomatyczne dowodzenie własności programów.</p>
         </div>
     </article>
 
-    <article id="stats">
-        <div class="container">
-            <h2>STATYSTYKA</h2>
-            <h3>Konferencja w liczbach</h3>
-            <div class="frame">
-                <div class="bit-4">
-                    <p>5</p>
-                    <p>PRELEGENTÓW</p>
-                </div>
-                <div class="bit-4">
-                    <p>25</p>
-                    <p>GODZIN</p>
-                </div>
-                <div class="bit-4">
-                    <p>300</p>
-                    <p>MIEJSC</p>
-                </div>
-                <div class="bit-4">
-                    <p>300</p>
-                    <p>NAGRÓD</p>
-                </div>
-            </div>
-            <img src="./images/stats.png" />
-        </div>
+    <article id="partners">
+        <h2>WSPÓŁPRACA</h2>
+        <h3>Nasi partnerzy</h3>
+        <div class="bit-3"><a href="http://www.microsoft.com/pl-pl/default.aspx"><img src="images/microsoft.png" alt="Microsoft"/></a></div>
+		<div class="bit-3"><img src="Images/logo_exertum.jpg" alt="Exertum" /></div>
+		<div class="bit-3"><!-- PWN? --></div>
     </article>
 
     <footer>
