@@ -66,7 +66,7 @@
                         </HeaderTemplate>
                         <ItemTemplate>
                             <tr>
-                                <td><%#Eval("Hour", "{0:hh\\:mm}") %></td>
+                                <td><%#Eval("Hour", "{0:hh\\:mm}") %> - <%#Eval("HourEnd", "{0:hh\\:mm}") %></td>
                                 <td>
                                     <h4><%#Eval("Title") %></h4>
                                     <p><%#Eval("Description") %></p>
