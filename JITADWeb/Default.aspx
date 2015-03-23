@@ -144,20 +144,32 @@ półautomatyczne dowodzenie własności programów.</p>
             <h3>Konferencja w liczbach</h3>
             <div class="frame">
                 <div class="bit-4">
-                    <p>5</p>
-                    <p>PRELEGENTÓW</p>
+                    <p>1</p>
+                    <p>DZIEŃ</p>
                 </div>
-                <div class="bit-4">
-                    <p>25</p>
+                <div>
+                    <p>5</p>
+                    <p>PRELEKCJI</p>
+                </div>
+                <div>
+                    <p>7</p>
                     <p>GODZIN</p>
                 </div>
-                <div class="bit-4">
+                <div>
+                    <p>14</p>
+                    <p>ORGANIZATORÓW</p>
+                </div>
+                <div>
+                    <p>100</p>
+                    <p>NAGRÓD</p>
+                </div>
+                <div>
                     <p>300</p>
                     <p>MIEJSC</p>
                 </div>
-                <div class="bit-4">
-                    <p>300</p>
-                    <p>NAGRÓD</p>
+                <div>
+                    <p>+&#8734;</p>
+                    <p>WIEDZY</p>
                 </div>
             </div>
             <img src="./images/stats.png" />
