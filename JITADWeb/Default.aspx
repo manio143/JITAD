@@ -120,24 +120,6 @@ półautomatyczne dowodzenie własności programów.</p>
         </div>
     </article>
 
-    <article id="topics">
-        <div class="container">
-            <h2>TEMATYKA</h2>
-            <h3>O czym będziemy rozmawiali?</h3>
-            <div class="frame">
-                <div class="bit-3">
-                    <img src="./images/windows-phone.png" /><h4>Mobile</h4>
-                </div>
-                <div class="bit-3">
-                    <img src="./images/cloud-computing.png" /><h4>Microsoft Azure</h4>
-                </div>
-                <div class="bit-3">
-                    <img src="./images/windows.png" /><h4>Desktop apps</h4>
-                </div>
-            </div>
-        </div>
-    </article>
-
     <article id="stats">
         <div class="container">
             <h2>STATYSTYKA</h2>
@@ -174,6 +156,36 @@ półautomatyczne dowodzenie własności programów.</p>
             </div>
             <img src="./images/stats.png" />
         </div>
+    </article>
+
+    <article id="map">
+
+    </article>
+
+    <article id="topics">
+        <div class="container">
+            <h2>TEMATYKA</h2>
+            <h3>O czym będziemy rozmawiali?</h3>
+            <div class="frame">
+                <div class="bit-3">
+                    <img src="./images/windows-phone.png" /><h4>Mobile</h4>
+                </div>
+                <div class="bit-3">
+                    <img src="./images/cloud-computing.png" /><h4>Microsoft Azure</h4>
+                </div>
+                <div class="bit-3">
+                    <img src="./images/windows.png" /><h4>Desktop apps</h4>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article id="partners">
+        <h2>WSPÓŁPRACA</h2>
+        <h3>Nasi partnerzy</h3>
+        <div class="bit-3"><a href="http://www.microsoft.com/pl-pl/default.aspx"><img src="images/microsoft.png" alt="Microsoft"/></a></div>
+		<div class="bit-3"><img src="Images/logo_exertum.jpg" alt="Exertum" /></div>
+		<div class="bit-3"><!-- PWN? --></div>
     </article>
 
     <footer>
