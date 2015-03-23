@@ -89,21 +89,29 @@
             <h3>Poznaj prowadzących wykłady</h3>
             <div class="frame">
                 <div class="bit-3">
-                    <img src="./images/kamil-stachowicz.png" /><h4>Kamil Stachowicz</h4><h5>Academic Program Manager | Microsoft</h5><p>Od 5 lat związany z programami Student Partner i Student Consultant. Były lider Grupy .NET Uniwersytetu Gdańskiego, wielokrotny finalista Imagine Cup oraz współtwórca startupów Linxi i Defii.co. Prelegent i trener na największych technologicznych wydarzeniach uczelnianych w Polsce. Pasjonat najnowszych technologii, trendów mobilnych i startupów.</p>
+                    <img src="./images/kamil-stachowicz.png" /><h4>Kamil Stachowicz</h4>
+                    <h5>Academic Program Manager | Microsoft</h5>
+                    <p>Od 5 lat związany z programami Student Partner i Student Consultant. Były lider Grupy .NET Uniwersytetu Gdańskiego, wielokrotny finalista Imagine Cup oraz współtwórca startupów Linxi i Defii.co. Prelegent i trener na największych technologicznych wydarzeniach uczelnianych w Polsce. Pasjonat najnowszych technologii, trendów mobilnych i startupów.</p>
                 </div>
                 <div class="bit-3">
                     <img src="./images/ryszard-dalkowski.jpg" />
                     <h4>Ryszard Dałkowski</h4>
                     <h5>Niezależny konsultant i trener</h5>
-                    <p>Były pracownik Microsoft z ponad 18-letnim stażem w korporacji w różnych rolach – technicznych, marketingowych, kierownika projektu i menadżera zespołu sprzedaży rozwiązań wspomagania biznesu.
+                    <p>
+                        Były pracownik Microsoft z ponad 18-letnim stażem w korporacji w różnych rolach – technicznych, marketingowych, kierownika projektu i menadżera zespołu sprzedaży rozwiązań wspomagania biznesu.
 Odpowiedzialny, m.in. za przygotowanie uzasadnienia biznesowego dla pierwszej polskiej lokalizacji oprogramowania Microsoft Windows Server. Przez ostatnie 4 lata w Microsoft odpowiadał za strategię współpracy i rozwoju otwartego oprogramowania na platformie cloud computing Microsoft Azure.
-Wiceprezes Fundacji Aegis <a href="http://www.aegis.org.pl">www.aegis.org.pl</a>.</p>
+Wiceprezes Fundacji Aegis <a href="http://www.aegis.org.pl">www.aegis.org.pl</a>.
+                    </p>
                 </div>
                 <div class="bit-3">
-                    <img src="./images/janusz-jablonowski.jpg" /><h4>dr Janusz Jabłonowski</h4><h5>Zastępca Dyr. Instytutu Informatyki na Wydziale
-Matematyki, Informatyki i Mechaniki UW</h5><p>Prowadzi na MIMUW zajęcia z przedmiotów programistycznych.
+                    <img src="./images/janusz-jablonowski.jpg" /><h4>dr Janusz Jabłonowski</h4>
+                    <h5>Zastępca Dyr. Instytutu Informatyki na Wydziale
+Matematyki, Informatyki i Mechaniki UW</h5>
+                    <p>
+                        Prowadzi na MIMUW zajęcia z przedmiotów programistycznych.
 Zainteresowania:  programowanie obiektowe, języki programowania i
-półautomatyczne dowodzenie własności programów.</p>
+półautomatyczne dowodzenie własności programów.
+                    </p>
                 </div>
             </div>
             <div class="frame">
@@ -159,7 +167,6 @@ półautomatyczne dowodzenie własności programów.</p>
     </article>
 
     <article id="map">
-
     </article>
 
     <article id="topics">
@@ -181,28 +188,33 @@ półautomatyczne dowodzenie własności programów.</p>
     </article>
 
     <article id="partners">
-        <h2>WSPÓŁPRACA</h2>
-        <h3>Nasi partnerzy</h3>
-        <div class="bit-3"><a href="http://www.microsoft.com/pl-pl/default.aspx"><img src="images/microsoft.png" alt="Microsoft"/></a></div>
-		<div class="bit-3"><img src="Images/logo_exertum.jpg" alt="Exertum" /></div>
-		<div class="bit-3"><!-- PWN? --></div>
+        <div class="container">
+            <h2>WSPÓŁPRACA</h2>
+            <h3>Nasi partnerzy</h3>
+            <br />
+            <div class="frame">
+                <div class="bit-3"><a href="http://www.microsoft.com/pl-pl/default.aspx">
+                    <img src="images/microsoft.png" alt="Microsoft" /></a></div>
+                <div class="bit-3">
+                    <img src="Images/logo_exertum.jpg" alt="Exertum" /></div>
+                <div class="bit-3">
+                    <!-- PWN? -->
+                </div>
+            </div>
+        </div>
     </article>
 
     <footer>
         <div class="container">
-	<div class="frame">
-		<div class="bit-1 microsoft"><img src="images/microsoft.png" alt="Microsoft"/></div>
-        <div class="bit-2"><img src="Images/logo_exertum.jpg" alt="Exertum" /></div>
-	</div>
-	<div class="frame">
-		<div class="bit-3">.</div>
-		<div class="bit-3">.</div>
-		<div class="bit-3">.</div>
-	</div>
-	<div class="frame">
-	<div class="bit-2">
-	<h2>.</h2>
-	</div>
+            <div class="frame">
+                <div class="bit-3">.</div>
+                <div class="bit-3">.</div>
+                <div class="bit-3">.</div>
+            </div>
+            <div class="frame">
+                <div class="bit-2">
+                    <h2>.</h2>
+                </div>
                 <div class="bit-2">
                     <div id="contactFrm">
                         <asp:ScriptManager ID="KontaktScriptManager" runat="server" EnablePageMethods="true" ScriptMode="Debug" />
