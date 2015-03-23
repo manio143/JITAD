@@ -68,7 +68,7 @@
                     JITAD.User usr = (JITAD.User)Session["CurrentUser"];
                     if (usr != null)
                         if (usr.IsAdmin)
-                            Response.Write("<a href='/Admin/' class='sign-in-top'>Panel administracyjny</a>");
+                            Response.Write("<a href='/Admin/' class='menu-link'>Panel administracyjny</a>");
                 %>
             </div>
             <div class="box-right">
