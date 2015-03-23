@@ -10,7 +10,8 @@
     <meta name="og:url" content="jitad2015.waw.pl" />
     <meta name="og:image" content="jitad2015.waw.pl/Images/logo_bez_tekstu.svg" />
     <meta name="og:locale" content="pl_PL" />
-    <meta name="og:description" content="21/04/2015 -- Junior IT Academic Day -- Każdy JITAD to przede wszystkim: prezentacje, dyskusje i mnóstwo nagród -- Konferencja odbędzie się na Wydziale Matematyki, Informatyki i Mechaniki UW." /> <%-- Description required --%>
+    <meta name="og:description" content="21/04/2015 -- Junior IT Academic Day -- Każdy JITAD to przede wszystkim: prezentacje, dyskusje i mnóstwo nagród -- Konferencja odbędzie się na Wydziale Matematyki, Informatyki i Mechaniki UW." />
+    <%-- Description required --%>
     <title>Junior ITAD - <%:Page.Title %></title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/lemonade.css" />
@@ -30,7 +31,7 @@
 
 </head>
 <body>
-
+    <%--
     <input type="checkbox" class="main-nav-check" id="main-nav-check" />
     <nav class="main-nav" id="main-nav">
         <a href="/">Strona główna</a>
@@ -53,17 +54,30 @@
         %>
         <!-- more -->
     </nav>
-
+    --%>
     <div class="page-wrap">
         <div class="menu frame">
-                <label for="main-nav-check" class="toggle-menu">
+            <div class="box-left">
+                <a href="/">
+                    <h3>JITAD</h3>
+                </a>
+                <%-- <label for="main-nav-check" class="toggle-menu">
                     <a class="menu-text">MENU</a>
-                </label>
+                </label>--%>
+                <% 
+                    JITAD.User usr = (JITAD.User)Session["CurrentUser"];
+                    if (usr != null)
+                        if (usr.IsAdmin)
+                            Response.Write("<a href='/Admin/' class='sign-in-top'>Panel administracyjny</a>");
+                %>
+            </div>
             <div class="box-right">
                 <% if (Session["CurrentUser"] == null && !Request.RawUrl.Contains("/Konto/Zaloguj")) Response.Write(
-                   "<a href='/Konto/Zaloguj' class='sign-in-top'>ZALOGUJ SIĘ</a><a href='/Konto/Zaloguj' class='sign-up-top'>ZAREJESTRUJ SIĘ</a>");
+                        "<a href='/Konto/Zaloguj' class='sign-in-top'>ZALOGUJ SIĘ</a><a href='/Konto/Zaloguj' class='sign-up-top'>ZAREJESTRUJ SIĘ</a>");
+                   else if (Session["CurrentUser"] != null) Response.Write(
+                           "<a href='/Konto/' class='sign-in-top'>Moje konto</a><a href='/Konto/webauth?logout=1' class='sign-in-top'>Wyloguj</a>");
                 %>
-                </div>
+            </div>
         </div>
 
         <form runat="server">
