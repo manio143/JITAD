@@ -98,6 +98,7 @@
     <Content Include="Images\logo_tlo_biale.svg" />
     <Content Include="Images\menu.svg" />
     <Content Include="Images\microsoft.png" />
+    <Content Include="Images\person-blank.png" />
     <Content Include="Images\profile-1.jpg" />
     <Content Include="Images\profile-2.jpg" />
     <Content Include="Images\profile-3.jpg" />
