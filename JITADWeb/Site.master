@@ -58,8 +58,8 @@
     <div class="page-wrap">
         <div class="menu frame">
             <div class="box-left">
-                <a href="/">
-                    <h3>JITAD</h3>
+                <a href="/" class="menu-title">
+                    JITAD
                 </a>
                 <%-- <label for="main-nav-check" class="toggle-menu">
                     <a class="menu-text">MENU</a>
@@ -75,7 +75,7 @@
                 <% if (Session["CurrentUser"] == null && !Request.RawUrl.Contains("/Konto/Zaloguj")) Response.Write(
                         "<a href='/Konto/Zaloguj' class='sign-in-top'>ZALOGUJ SIĘ</a><a href='/Konto/Zaloguj' class='sign-up-top'>ZAREJESTRUJ SIĘ</a>");
                    else if (Session["CurrentUser"] != null) Response.Write(
-                           "<a href='/Konto/' class='sign-in-top'>Moje konto</a><a href='/Konto/webauth?logout=1' class='sign-in-top'>Wyloguj</a>");
+                           "<a href='/Konto/' class='sign-in-top'>Moje konto</a>&ensp;<a href='/Konto/webauth?logout=1' class='sign-in-top'>Wyloguj</a>");
                 %>
             </div>
         </div>
