@@ -55,6 +55,9 @@ header p { opacity: .7; padding-bottom: 45px;}
 #counter table  td:nth-child(odd) { min-width:100px;}
 #counter table  td:nth-child(even) {background:#96c278;}
 
+#map { width: 100%; height: 500px; position: relative; }
+#map div {  }
+
 #stats { padding: 120px 0px; text-align: center; border-top: 1px solid #ccc; }
 #stats .frame>div { float: left; width: 14.2%; padding: 100px 0px 60px; }
 #stats .frame>div p:first-of-type { font-size: 80px; color: #96c278; font-weight: 300;}

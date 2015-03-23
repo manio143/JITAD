@@ -18,6 +18,8 @@
     <script src="/Scripts/jquery-2.1.3.min.js"></script>
     <script src="/Scripts/jquery.lazyload.js"></script>
 
+    <script charset="UTF-8" type="text/javascript" src="https://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&s=1&mkt=pl-pl"></script>
+
     <%@ Import Namespace="Microsoft.AspNet.FriendlyUrls" %>
     <script type="text/javascript" charset="utf-8">
         $(document).ready(function () {

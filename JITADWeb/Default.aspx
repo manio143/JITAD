@@ -159,8 +159,29 @@ półautomatyczne dowodzenie własności programów.</p>
     </article>
 
     <article id="map">
-
+        
     </article>
+    <script type="text/javascript">
+        var map = new Microsoft.Maps.Map(document.getElementById("map"), {
+            credentials: "AnSo0DFYay_36kh_JAYCpbSC0GkpgnfVDPf_bkMa8V2_RuqYR19R-qy1t8meln9d",
+            center: new Microsoft.Maps.Location(52.211854, 20.981977),
+            mapTypeId: Microsoft.Maps.MapTypeId.road,
+            zoom: 15
+        });
+
+        var pin = new Microsoft.Maps.Pushpin(map.getCenter(), { icon: 'images/map-pin.png', width: 50, height: 50, draggable: false });
+        map.entities.push(pin);
+
+        var pinInfobox = new Microsoft.Maps.Infobox(pin.getLocation(),
+        {
+            title: 'Wydział Matematyki, Informatyki i Mechaniki UW',
+            description: 'Banacha 2a, Warszawa (wejście od ul. Pasteura)',
+            visible: true,
+            offset: new Microsoft.Maps.Point(0, 15)
+        });
+        map.entities.push(pinInfobox);
+
+    </script>
 
     <article id="topics">
         <div class="container">
