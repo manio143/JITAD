@@ -89,12 +89,12 @@
             <h3>Poznaj prowadzących wykłady</h3>
             <div class="frame">
                 <div class="bit-3">
-                    <img src="./images/kamil-stachowicz.png" /><h4>Kamil Stachowicz</h4>
+                    <img src="./images/prelegenci/kamil-stachowicz.png" /><h4>Kamil Stachowicz</h4>
                     <h5>Academic Program Manager | Microsoft</h5>
                     <p>Od 5 lat związany z programami Student Partner i Student Consultant. Były lider Grupy .NET Uniwersytetu Gdańskiego, wielokrotny finalista Imagine Cup oraz współtwórca startupów Linxi i Defii.co. Prelegent i trener na największych technologicznych wydarzeniach uczelnianych w Polsce. Pasjonat najnowszych technologii, trendów mobilnych i startupów.</p>
                 </div>
                 <div class="bit-3">
-                    <img src="./images/ryszard-dalkowski.jpg" />
+                    <img src="./images/prelegenci/ryszard-dalkowski.jpg" />
                     <h4>Ryszard Dałkowski</h4>
                     <h5>Niezależny konsultant i trener</h5>
                     <p>
@@ -104,7 +104,7 @@ Wiceprezes Fundacji Aegis <a href="http://www.aegis.org.pl">www.aegis.org.pl</a>
                     </p>
                 </div>
                 <div class="bit-3">
-                    <img src="./images/janusz-jablonowski.jpg" /><h4>dr Janusz Jabłonowski</h4>
+                    <img src="./images/prelegenci/janusz-jablonowski.jpg" /><h4>dr Janusz Jabłonowski</h4>
                     <h5>Zastępca Dyr. Instytutu Informatyki na Wydziale
 Matematyki, Informatyki i Mechaniki UW</h5>
                     <p>
@@ -116,13 +116,13 @@ półautomatyczne dowodzenie własności programów.
             </div>
             <div class="frame">
                 <div class="bit-3">
-                    <img src="./images/person-blank.png" /><h4>To be announced</h4>
+                    <img src="./images/prelegenci/person-blank.png" /><h4>To be announced</h4>
                 </div>
                 <div class="bit-3">
-                    <img src="./images/person-blank.png" /><h4>To be announced</h4>
+                    <img src="./images/prelegenci/person-blank.png" /><h4>To be announced</h4>
                 </div>
                 <div class="bit-3">
-                    <img src="./images/person-blank.png" /><h4>To be announced</h4>
+                    <img src="./images/prelegenci/person-blank.png" /><h4>To be announced</h4>
                 </div>
             </div>
         </div>
@@ -215,9 +215,9 @@ półautomatyczne dowodzenie własności programów.
             <br />
             <div class="frame">
                 <div class="bit-3"><a href="http://www.microsoft.com/pl-pl/default.aspx">
-                    <img src="images/microsoft.png" alt="Microsoft" /></a></div>
+                    <img src="images/partnerzy/microsoft.png" alt="Microsoft" /></a></div>
                 <div class="bit-3">
-                    <img src="Images/logo_exertum.jpg" alt="Exertum" /></div>
+                    <img src="Images/partnerzy/logo_exertum.jpg" alt="Exertum" /></div>
                 <div class="bit-3">
                     <!-- PWN? -->
                 </div>
