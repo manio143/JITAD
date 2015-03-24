@@ -92,7 +92,7 @@ header p { opacity: .7; padding-bottom: 45px;}
 
 #contactFrm h2 {color: #ccc;}
 
-#partners {text-align: center; padding: 80px 0;}
+#partners { text-align: center; padding: 80px 0; border-top: 1px solid #CCC; }
 
 
 footer { background: #222;}
