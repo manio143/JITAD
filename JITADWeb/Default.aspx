@@ -217,7 +217,7 @@ półautomatyczne dowodzenie własności programów.
                 <div class="bit-3"><a href="http://www.microsoft.com/pl-pl/default.aspx">
                     <img src="images/partnerzy/microsoft.png" alt="Microsoft" /></a></div>
                 <div class="bit-3">
-                    <img src="Images/partnerzy/logo_exertum.jpg" alt="Exertum" /></div>
+                    <img src="Images/partnerzy/exertum.jpg" alt="Exertum" /></div>
                 <div class="bit-3">
                     <!-- PWN? -->
                 </div>
