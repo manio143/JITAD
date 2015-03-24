@@ -234,9 +234,6 @@ półautomatyczne dowodzenie własności programów.
             </div>
             <div class="frame">
                 <div class="bit-2">
-                    <h2>.</h2>
-                </div>
-                <div class="bit-2">
                     <div id="contactFrm">
                         <asp:ScriptManager ID="KontaktScriptManager" runat="server" EnablePageMethods="true" ScriptMode="Debug" />
                         <h2>KONTAKT</h2>
@@ -250,6 +247,12 @@ półautomatyczne dowodzenie własności programów.
                             <asp:Button ID="btnSend" Text="WYŚLIJ" OnClientClick="Send(); return false;" runat="server" />
                         </asp:Panel>
                     </div>
+                </div>
+                <div class="bit-2" id="org">
+                    <img src="images/juniornetuw.png" />
+                    <p>Organizatorem wydarzenia jest koło naukowe „Junior .NET UW” działające na Wydziale Matematyki, Mechaniki i Informatyki Uniwersytetu Warszawskiego.</p>
+                    <p>Facebook: <a href="https://www.facebook.com/juniorNETmimuw">facebook.com/juniorNETmimuw</a></p>
+                    <p>JITAD 2015 na FB: <a href="https://www.facebook.com/events/351382441728847/">Junior IT Academic Days 2015</a></p>
                 </div>
             </div>
         </div>

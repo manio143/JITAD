@@ -97,6 +97,12 @@ header p { opacity: .7; padding-bottom: 45px;}
 
 footer { background: #222;}
 
+#org { padding: 20px 0 0 5%; }
+#org img { width: 25%; max-width: 150px; height: auto; float: left; margin: 0 20px 20px 0;  }
+#org p { margin-top: 10px; color: #999; line-height: 150%; }
+#org a { color: inherit; text-decoration: underline; }
+#org p:nth-child(3) { clear: both; }
+
 h2 { font-size: 26px; font-weight: 500;}
 h3 { font-size: 60px; font-weight: 300; color: #1681b0; padding-bottom: 20px;}
 h4 { font-size: 22px; font-weight: 300; padding: 30px;}
