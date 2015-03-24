@@ -147,6 +147,10 @@ img { width: 100%; height: auto;}
 .microsoft { text-align: center;}
 .microsoft img { width: 400px; height: auto;}
 
+.Infobox { font-family:'Microsoft YaHei UI'; text-align:center;}
+.infobox-info {text-align:left;}
+.infobox-close {font-family:Consolas; font-weight:bold;}
+
 .page-wrap {
   float: right;
   width: 100%;

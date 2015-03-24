@@ -182,7 +182,7 @@ półautomatyczne dowodzenie własności programów.
         var pinInfobox = new Microsoft.Maps.Infobox(pin.getLocation(),
         {
             title: 'Wydział Matematyki, Informatyki i Mechaniki UW',
-            description: 'Banacha 2a, Warszawa (wejście od ul. Pasteura)',
+            description: 'Banacha 2a, Warszawa<br />(wejście od ul. Pasteura)',
             visible: true,
             offset: new Microsoft.Maps.Point(0, 15)
         });
