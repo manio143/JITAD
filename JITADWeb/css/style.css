@@ -259,7 +259,14 @@ src: url('fonts/msyh.ttc')  format('truetype'),
     url('fonts/msyhl.ttc') format('truetype');
 }
 
-.usr_popup {}
+.usr_popup {
+    position: fixed;
+    bottom: 0;
+    background-color: antiquewhite;
+    width:100%;
+    padding:20px 10px;
+    border: solid 1px gray;
+}
 .usr_popup_inner {}
-.usr_popup_text {}
-.usr_popup_close {}
+.usr_popup_text {display: inline; margin:auto 0;}
+.usr_popup_close {display: inline; float:right;}
