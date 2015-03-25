@@ -31,9 +31,9 @@
         });
     </script>
     <%
-        /*JITAD.User usr = (JITAD.User)Session["CurrentUser"];
+        JITAD.User usr = (JITAD.User)Session["CurrentUser"];
         if (usr != null)
-            if (usr.Name == null)*/
+            if (usr.Name == null)
                 Response.Write(
                     "<script type=\"text/javascript\" src=\"/Scripts/popup.js\"></script>\n"
                     + "<script type=\"text/javascript\">\n"
