@@ -30,7 +30,15 @@
             });
         });
     </script>
-
+    <%
+        JITAD.User usr = (JITAD.User)Session["CurrentUser"];
+        if (usr != null)
+            if (usr.Name == null)
+                Response.Write(
+                    "<script type=\"text/javascript\" src=\"http://ciasteczka.eu/cookiesEU-latest.min.js\"></script>\n"
+                    + "<script type=\"text/javascript\">\n"
+                    + "jQuery(document).ready(function(){jQuery.fn.cookiesEU({text: 'Prosimy o uzupełnienie swoich danych osobowych. W tym celu przejdź do <a href=\"/Konto/\">Moje konto</a>.', close: 'Nie pokazuj więcej', position: 'bottom', box_css: 'usr_popup', inner_css: 'usr_popup_inner', text_css: 'usr_popup_text', close_css: 'usr_popup_close', auto_accept: false}); });\n</script>");
+         %>
 </head>
 <body>
     <%--

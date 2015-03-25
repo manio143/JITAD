@@ -258,3 +258,8 @@ src: url('fonts/msyh.ttc')  format('truetype'),
     url('fonts/msyhbd.ttc') format('truetype'),
     url('fonts/msyhl.ttc') format('truetype');
 }
+
+.usr_popup {}
+.usr_popup_inner {}
+.usr_popup_text {}
+.usr_popup_close {}
