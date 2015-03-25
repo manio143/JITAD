@@ -227,7 +227,7 @@ półautomatyczne dowodzenie własności programów.
 
     <footer>
         <div class="container">
-            <div class="frame">
+            <div class="frame footer-color">
                 <div class="bit-3">.</div>
                 <div class="bit-3">.</div>
                 <div class="bit-3">.</div>
