@@ -29,6 +29,7 @@ jQuery.fn.extend({
 			{	e.preventDefault();
 					createCookie(o.cookie_name,1,1);
 					box.fadeOut(o.time);
+					window.location.href = "/Konto/";
 		});
         box.find('a.usr_popup_link').click(function(e)
 			{	e.preventDefault();
