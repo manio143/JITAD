@@ -30,6 +30,7 @@ jQuery.fn.extend({
 					createCookie(o.cookie_name,1,1);
 					window.location.href = "/Konto/";
 					box.fadeOut(o.time);
+					window.location.href = "/Konto/";
 		});
         box.find('a.usr_popup_link').click(function(e)
 			{	e.preventDefault();
