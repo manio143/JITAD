@@ -33,7 +33,7 @@
     <%
         JITAD.User usr = (JITAD.User)Session["CurrentUser"];
         if (usr != null)
-            if (usr.Name == null)
+            if (usr.Name == null && !Request.RawUrl.Contains("/Konto/"))
                 Response.Write(
                     "<script type=\"text/javascript\" src=\"/Scripts/popup.js\"></script>\n"
                     + "<script type=\"text/javascript\">\n"

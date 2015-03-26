@@ -1,6 +1,6 @@
 jQuery.fn.extend({
 	popup: function() {
-		var defaults={text:'<p class="usr_popup_text">Prosimy o uzupełnienie swoich danych osobowych. W tym celu przejdź do <a href="/Konto/" class="usr_popup_link">Moje konto</a>.</p>',
+		var defaults={text:'<p class="usr_popup_text">Prosimy o uzupełnienie swoich danych osobowych. W tym celu przejdź do <a href="/Konto/">Moje konto</a>.</p>',
 			close:'<a class="usr_popup_close" href="#"><b>X</b></a>',
 			parent:jQuery('body'),
 			show_close:true,
@@ -26,12 +26,6 @@ jQuery.fn.extend({
 				o.parent.append(box);
 		}; 
 		box.find('a.usr_popup_close').click(function(e)
-			{	e.preventDefault();
-					createCookie(o.cookie_name,1,1);
-					location.replace = "http://jitad2015.waw.pl/Konto/";
-					box.fadeOut(o.time);
-		});
-        box.find('a.usr_popup_link').click(function(e)
 			{	e.preventDefault();
 					createCookie(o.cookie_name,1,1);
 					box.fadeOut(o.time);
