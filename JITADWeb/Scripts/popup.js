@@ -1,7 +1,7 @@
 jQuery.fn.extend({
 	popup: function() {
-		var defaults={text:'<p class="usr_popup_text">Prosimy o uzupełnienie swoich danych osobowych. W tym celu przejdź do <a href="/Konto/">Moje konto</a>.</p>',
-			close:'<a class="usr_popup_close" href="#">Nie pokazuj więcej</a>',
+		var defaults={text:'<p class="usr_popup_text">Prosimy o uzupełnienie swoich danych osobowych. W tym celu przejdź do <a href="/Konto/" class="usr_popup_close">Moje konto</a>.</p>',
+			close:'<a class="usr_popup_close" href="#"><b>X</b></a>',
 			parent:jQuery('body'),
 			show_close:true,
 			position:'bottom',
