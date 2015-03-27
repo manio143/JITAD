@@ -13,8 +13,22 @@ namespace JITADWeb.Konto
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["CurrentUser"] != null) Response.Redirect("~/Konto/", true);
+            if (!Page.IsPostBack)
+            {
+                ddlSchools.Items.Add("Wybierz szkołę...");
+                getSchoolsList();
+            }
         }
-
+        private void getSchoolsList()
+        {
+            UserStats s = new UserStats();
+            var schools = s.GetSchools();
+            schools.RemoveAt(0);
+            foreach (var sc in schools)
+            {
+                ddlSchools.Items.Add(sc);
+            }
+        }
         protected void btnLogIn_Click(object sender, EventArgs e)
         {
             try
