@@ -175,6 +175,15 @@ namespace JITADWeb.Konto {
         protected global::System.Web.UI.WebControls.TextBox txtName;
         
         /// <summary>
+        /// lblNMust control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblNMust;
+        
+        /// <summary>
         /// txtSurname control.
         /// </summary>
         /// <remarks>
@@ -182,6 +191,24 @@ namespace JITADWeb.Konto {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtSurname;
+        
+        /// <summary>
+        /// lblSMust control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblSMust;
+        
+        /// <summary>
+        /// lblScMust control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblScMust;
         
         /// <summary>
         /// ddlSchools control.

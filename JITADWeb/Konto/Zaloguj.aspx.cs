@@ -120,6 +120,12 @@ namespace JITADWeb.Konto
             else lblPAMust.Visible = false;
             if (txtPasswordAgain.Text.CompareTo(txtPassReg.Text) != 0) { lblPASame.Visible = true; validated = false; }
             else lblPASame.Visible = false;
+            if (String.IsNullOrEmpty(txtName.Text)) { lblNMust.Visible = true; validated = false; }
+            else lblNMust.Visible = false;
+            if (String.IsNullOrEmpty(txtSurname.Text)) { lblSMust.Visible = true; validated = false; }
+            else lblSMust.Visible = false;
+            if (ddlSchools.SelectedIndex == 0) { lblScMust.Visible = true; validated = false; }
+            else lblScMust.Visible = false;
             return validated;
         }
         private void clearForms()
