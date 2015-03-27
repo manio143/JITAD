@@ -58,6 +58,10 @@ namespace JITADWeb.Konto
                     string user_id = myData.Result["id"].ToString();
                     getSession(user_id);
                 }
+                else
+                {
+                    Response.Write("<script type=\"text/javascript\">alert('Wystąpił błąd');</script>");
+                }
             }
             catch (LiveAuthException)
             {

@@ -10,7 +10,7 @@
     <meta name="og:title" content="JITAD 2015 Warszawa" />
     <meta name="og:site_name" content="JITAD 2015" />
     <meta name="og:url" content="jitad2015.waw.pl" />
-    <meta name="og:image" content="jitad2015.waw.pl/Images/logo_bez_tekstu.svg" />
+    <meta name="og:image" content="http://jitad2015.waw.pl/Images/logo_inverted.png" />
     <meta name="og:locale" content="pl_PL" />
     <meta name="og:description" content="21/04/2015 -- Junior IT Academic Day -- Każdy JITAD to przede wszystkim: prezentacje, dyskusje i mnóstwo nagród -- Konferencja odbędzie się na Wydziale Matematyki, Informatyki i Mechaniki UW." />
     <%-- Description required --%>
