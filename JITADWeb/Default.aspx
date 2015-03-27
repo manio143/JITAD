@@ -116,7 +116,8 @@ półautomatyczne dowodzenie własności programów.
             </div>
             <div class="frame">
                 <div class="bit-3">
-                    <img src="./images/prelegenci/person-blank.png" /><h4>To be announced</h4>
+                    <img src="./images/prelegenci/dawid-chroscielski.jpg" /><h4>Dawid Chróścielski</h4><h5>Microsoft Junior .NET Leader | PP</h5>
+                    <p>Microsoft Junior .NET Leader, student 2 roku Informatyki na Wydziale Elektrycznym Politechniki Poznańskiej. Współzałożyciel grupy developerów indie: Pixel Creators. Na co dzień zajmuje się tworzeniem gier z wykorzystaniem Unity. Aktywny uczestnik wielu gamejamów, konferencji, warsztatów dotyczących gier wideo. Zainteresowania: proceduralne generowanie roślinności w przestrzeni trójwymiarowej.</p>
                 </div>
                 <div class="bit-3">
                     <img src="./images/prelegenci/person-blank.png" /><h4>To be announced</h4>
