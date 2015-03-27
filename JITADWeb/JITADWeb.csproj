@@ -87,6 +87,8 @@
     <Content Include="Images\juniornetuw.png" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\logo.svg" />
+    <Content Include="Images\logo_inverted.png" />
+    <Content Include="Images\logo_inverted.svg" />
     <Content Include="Images\map-pin.png" />
     <Content Include="Images\partnerzy\exertum.jpg" />
     <Content Include="Images\partnerzy\microsoft.png" />

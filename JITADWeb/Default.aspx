@@ -10,6 +10,7 @@
             <h2>21 / 04 / 2015</h2>
             <br />
             <a href="/Konto/Zaloguj" class="sign-up">ZAREJESTRUJ SIĘ</a>
+            <a href="https://www.facebook.com/events/351382441728847/" class="facebook-button-big" target="_blank">ŚLEDŹ NA FB</a>
         </div>
     </header>
     <!--<article>VIDEO</article>-->

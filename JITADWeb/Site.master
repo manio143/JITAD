@@ -87,6 +87,7 @@
                    else if (Session["CurrentUser"] != null) Response.Write(
                            "<a href='/Konto/' class='sign-in-top'>Moje konto</a>&ensp;<a href='/Konto/webauth?logout=1' class='sign-in-top'>Wyloguj</a>");
                 %>
+                <a href="https://www.facebook.com/events/351382441728847/" class="facebook-button" target="_blank">FB</a>
             </div>
         </div>
 
