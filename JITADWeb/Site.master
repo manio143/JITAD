@@ -70,9 +70,7 @@
     <div class="page-wrap">
         <div class="menu frame">
             <div class="box-left">
-                <a href="/" class="menu-title">
-                    JITAD
-                </a>
+                <a href="/" class="menu-title">Junior IT Academic Days</a>
                 <%-- <label for="main-nav-check" class="toggle-menu">
                     <a class="menu-text">MENU</a>
                 </label>--%>
@@ -89,6 +87,7 @@
                    else if (Session["CurrentUser"] != null) Response.Write(
                            "<a href='/Konto/' class='sign-in-top'>Moje konto</a>&ensp;<a href='/Konto/webauth?logout=1' class='sign-in-top'>Wyloguj</a>");
                 %>
+                <a href="https://www.facebook.com/events/351382441728847/" class="facebook-button" target="_blank">FB</a>
             </div>
         </div>
 

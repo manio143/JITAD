@@ -10,6 +10,7 @@
             <h2>21 / 04 / 2015</h2>
             <br />
             <a href="/Konto/Zaloguj" class="sign-up">ZAREJESTRUJ SIĘ</a>
+            <a href="https://www.facebook.com/events/351382441728847/" class="facebook-button-big" target="_blank">ŚLEDŹ NA FB</a>
         </div>
     </header>
     <!--<article>VIDEO</article>-->
@@ -55,6 +56,7 @@
     </article>
 
     <article id="agenda">
+        <a name="agenda" />
         <div class="container">
             <h2>AGENDA</h2>
             <h3>Plan dnia</h3>
@@ -84,6 +86,7 @@
     </article>
 
     <article id="profiles">
+        <a name="prelegenci" />
         <div class="container">
             <h2>PRELEGENCI</h2>
             <h3>Poznaj prowadzących wykłady</h3>
@@ -116,7 +119,8 @@ półautomatyczne dowodzenie własności programów.
             </div>
             <div class="frame">
                 <div class="bit-3">
-                    <img src="./images/prelegenci/person-blank.png" /><h4>To be announced</h4>
+                    <img src="./images/prelegenci/dawid-chroscielski.jpg" /><h4>Dawid Chróścielski</h4><h5>Microsoft Junior .NET Leader | PP</h5>
+                    <p>Microsoft Junior .NET Leader, student 2 roku Informatyki na Wydziale Elektrycznym Politechniki Poznańskiej. Współzałożyciel grupy developerów indie: Pixel Creators. Na co dzień zajmuje się tworzeniem gier z wykorzystaniem Unity. Aktywny uczestnik wielu gamejamów, konferencji, warsztatów dotyczących gier wideo. Zainteresowania: proceduralne generowanie roślinności w przestrzeni trójwymiarowej.</p>
                 </div>
                 <div class="bit-3">
                     <img src="./images/prelegenci/person-blank.png" /><h4>To be announced</h4>
@@ -129,6 +133,7 @@ półautomatyczne dowodzenie własności programów.
     </article>
 
     <article id="stats">
+        <a name="statystyka" />
         <div class="container">
             <h2>STATYSTYKA</h2>
             <h3>Konferencja w liczbach</h3>
@@ -166,6 +171,7 @@ półautomatyczne dowodzenie własności programów.
         </div>
     </article>
 
+    <a name="mapa" />
     <article id="map">
     </article>
     <script type="text/javascript">
@@ -191,6 +197,7 @@ półautomatyczne dowodzenie własności programów.
     </script>
 
     <article id="topics">
+        <a name="tematyka" />
         <div class="container">
             <h2>TEMATYKA</h2>
             <h3>O czym będziemy rozmawiali?</h3>
@@ -209,6 +216,7 @@ półautomatyczne dowodzenie własności programów.
     </article>
 
     <article id="partners">
+        <a name="partnerzy" />
         <div class="container">
             <h2>WSPÓŁPRACA</h2>
             <h3>Nasi partnerzy</h3>
