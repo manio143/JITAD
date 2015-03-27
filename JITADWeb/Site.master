@@ -1,5 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SiteMaster" %>
 
+<% if (Request.Url.ToString().Contains("www")) Response.Redirect(Request.Url.ToString().Replace("www.", ""), true); %>
+
 <!DOCTYPE html>
 <html>
 <head runat="server">
