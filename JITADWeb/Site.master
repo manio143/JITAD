@@ -70,9 +70,7 @@
     <div class="page-wrap">
         <div class="menu frame">
             <div class="box-left">
-                <a href="/" class="menu-title">
-                    JITAD
-                </a>
+                <a href="/" class="menu-title">Junior IT Academic Days</a>
                 <%-- <label for="main-nav-check" class="toggle-menu">
                     <a class="menu-text">MENU</a>
                 </label>--%>

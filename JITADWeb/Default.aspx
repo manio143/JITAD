@@ -55,6 +55,7 @@
     </article>
 
     <article id="agenda">
+        <a name="agenda" />
         <div class="container">
             <h2>AGENDA</h2>
             <h3>Plan dnia</h3>
@@ -84,6 +85,7 @@
     </article>
 
     <article id="profiles">
+        <a name="prelegenci" />
         <div class="container">
             <h2>PRELEGENCI</h2>
             <h3>Poznaj prowadzących wykłady</h3>
@@ -130,6 +132,7 @@ półautomatyczne dowodzenie własności programów.
     </article>
 
     <article id="stats">
+        <a name="statystyka" />
         <div class="container">
             <h2>STATYSTYKA</h2>
             <h3>Konferencja w liczbach</h3>
@@ -167,6 +170,7 @@ półautomatyczne dowodzenie własności programów.
         </div>
     </article>
 
+    <a name="mapa" />
     <article id="map">
     </article>
     <script type="text/javascript">
@@ -192,6 +196,7 @@ półautomatyczne dowodzenie własności programów.
     </script>
 
     <article id="topics">
+        <a name="tematyka" />
         <div class="container">
             <h2>TEMATYKA</h2>
             <h3>O czym będziemy rozmawiali?</h3>
@@ -210,6 +215,7 @@ półautomatyczne dowodzenie własności programów.
     </article>
 
     <article id="partners">
+        <a name="partnerzy" />
         <div class="container">
             <h2>WSPÓŁPRACA</h2>
             <h3>Nasi partnerzy</h3>
