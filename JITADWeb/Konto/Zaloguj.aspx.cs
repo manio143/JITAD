@@ -68,7 +68,11 @@ namespace JITADWeb.Konto
                 try
                 {
                     UserSystem usrsys = new UserSystem();
-                    usrsys.Register(txtLoginReg.Text, txtPassReg.Text, txtEmail.Text);
+                    var usr = usrsys.Register(txtLoginReg.Text, txtPassReg.Text, txtEmail.Text);
+                    usr.Name = txtName.Text;
+                    usr.Surname = txtSurname.Text;
+                    usr.SchoolId = ddlSchools.SelectedIndex;
+                    usrsys.Update(usr.UserName, usr);
                     clearForms();
                     lblSuccess.Text = "Zarejestrowano pomyślnie.";
                     lblErrorReg.Visible = false;
@@ -122,6 +126,9 @@ namespace JITADWeb.Konto
         {
             txtLoginReg.Text = "";
             txtEmail.Text = "";
+            txtSurname.Text = "";
+            txtName.Text = "";
+            ddlSchools.SelectedIndex = 0;
         }
     }
 }

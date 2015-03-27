@@ -166,6 +166,33 @@ namespace JITADWeb.Konto {
         protected global::System.Web.UI.WebControls.Label lblPASame;
         
         /// <summary>
+        /// txtName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtName;
+        
+        /// <summary>
+        /// txtSurname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtSurname;
+        
+        /// <summary>
+        /// ddlSchools control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlSchools;
+        
+        /// <summary>
         /// btnRegister control.
         /// </summary>
         /// <remarks>
