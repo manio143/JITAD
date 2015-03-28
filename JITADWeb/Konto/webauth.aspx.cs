@@ -11,7 +11,7 @@ namespace JITADWeb.Konto
 {
     public partial class webauth : System.Web.UI.Page
     {
-        private LiveAuthClient liveAuthClient = new LiveAuthClient(GlobalFunctions.AppId, GlobalFunctions.AppSecret, "http://jitad-draft.azurewebsites.net/Konto/webauth");
+        private LiveAuthClient liveAuthClient = new LiveAuthClient(GlobalFunctions.AppId, GlobalFunctions.AppSecret, "http://jitad2015.waw.pl/Konto/webauth");
         private LiveConnectSession session = null;
 
         protected void Page_Load(object sender, EventArgs e)
