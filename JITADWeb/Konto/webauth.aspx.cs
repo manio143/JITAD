@@ -11,7 +11,7 @@ namespace JITADWeb.Konto
 {
     public partial class webauth : System.Web.UI.Page
     {
-        private LiveAuthClient liveAuthClient = new LiveAuthClient(GlobalFunctions.AppId, GlobalFunctions.AppSecret, "http://jitad2015.waw.pl/Konto/webauth");
+        private LiveAuthClient liveAuthClient = new LiveAuthClient(GlobalFunctions.AppId, GlobalFunctions.AppSecret, "https://jitad2015.waw.pl/Konto/webauth");
         private LiveConnectSession session = null;
 
         protected void Page_Load(object sender, EventArgs e)
@@ -49,18 +49,17 @@ namespace JITADWeb.Konto
         {
             try
             {
+
                 LiveLoginResult result = await liveAuthClient.ExchangeAuthCodeAsync(new HttpContextWrapper(Context));
                 session = result.Session;
+                new JITAD.UserStats().SendMessage("WebAuth", "jitad", "Inside getAuthResult()");
                 if (result.Status == LiveConnectSessionStatus.Connected)
                 {
                     var liveClient = new LiveConnectClient(session);
                     var myData = await liveClient.GetAsync("me");
                     string user_id = myData.Result["id"].ToString();
+                    new JITAD.UserStats().SendMessage("WbAuth", "jitad", "Successfully connected");
                     getSession(user_id);
-                }
-                else
-                {
-                    Response.Write("<script type=\"text/javascript\">alert('Wystąpił błąd');</script>");
                 }
             }
             catch (LiveAuthException)
