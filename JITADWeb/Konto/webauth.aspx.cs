@@ -38,7 +38,7 @@ namespace JITADWeb.Konto
             }
             if (Request["l"] != null)
             {
-                if (returnUrl != null) Response.Redirect("~/" + returnUrl, true);
+                if (returnUrl != null) Response.Redirect("~/"+returnUrl, true);
                 else
                     Response.Redirect("~/", true);
             }
@@ -52,21 +52,14 @@ namespace JITADWeb.Konto
 
                 LiveLoginResult result = await liveAuthClient.ExchangeAuthCodeAsync(new HttpContextWrapper(Context));
                 session = result.Session;
+                new JITAD.UserStats().SendMessage("WebAuth", "jitad", "Inside getAuthResult()");
                 if (result.Status == LiveConnectSessionStatus.Connected)
                 {
                     var liveClient = new LiveConnectClient(session);
                     var myData = await liveClient.GetAsync("me");
                     string user_id = myData.Result["id"].ToString();
-                    dynamic results = myData.Result;
-                    string user_email;
-                    var emails = new List<string>();
-                    foreach (var v in results.emails)
-                    {
-                        if (v.Value != null)
-                            emails.Add(v.Value);
-                    }
-                    user_email = emails.First();
-                    getSession(user_id, user_email);
+                    new JITAD.UserStats().SendMessage("WbAuth", "jitad", "Successfully connected");
+                    getSession(user_id);
                 }
             }
             catch (LiveAuthException)
@@ -75,11 +68,11 @@ namespace JITADWeb.Konto
             }
         }
 
-        private void getSession(string user_id, string mail)
+        private void getSession(string user_id)
         {
             JITAD.UserSystem usrsys = new JITAD.UserSystem();
             if (!usrsys.UserExists(user_id))
-            { usrsys.Register(user_id, "MSAccount", mail); usrsys.IsMSAccount(user_id, true); }
+            { usrsys.Register(user_id, "MSAccount", user_id + "@microsoftaccount.com"); usrsys.IsMSAccount(user_id, true); }
             Session["CurrentUser"] = usrsys.LogIn(user_id, "MSAccount");
         }
     }
