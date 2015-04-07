@@ -87,6 +87,7 @@ namespace JITADWeb.Konto
                     usr.Surname = txtSurname.Text;
                     usr.SchoolId = ddlSchools.SelectedIndex;
                     usrsys.Update(usr.UserName, usr);
+                    if (!String.IsNullOrEmpty(txtPolecacz.Text)) usrsys.addPolecacz(usr.UserName, txtPolecacz.Text);
                     clearForms();
                     lblSuccess.Text = "Zarejestrowano pomyślnie.";
                     lblErrorReg.Visible = false;
@@ -148,6 +149,7 @@ namespace JITADWeb.Konto
             txtEmail.Text = "";
             txtSurname.Text = "";
             txtName.Text = "";
+            txtPolecacz.Text = "";
             ddlSchools.SelectedIndex = 0;
         }
     }
