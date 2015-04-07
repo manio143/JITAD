@@ -222,13 +222,14 @@ półautomatyczne dowodzenie własności programów.
             <h3>Nasi partnerzy</h3>
             <br />
             <div class="frame">
-                <div class="bit-3"><a href="http://www.microsoft.com/pl-pl/default.aspx">
+                <div class="bit-3" style="padding-top: 15px;"><a href="http://www.microsoft.com/pl-pl/default.aspx">
                     <img src="images/partnerzy/microsoft.png" alt="Microsoft" /></a></div>
                 <div class="bit-3">
                     <img src="Images/partnerzy/exertum.jpg" alt="Exertum" /></div>
                 <div class="bit-3">
-                    <!-- PWN? -->
-                </div>
+                    <a href="http://pwn.pl/"><img src="Images/partnerzy/pwn.png" alt="PWN" /></a></div>
+                <div class="bit-3" style="float: none; margin: 0 auto;">
+                    <a href="http://it.pwn.pl/"><img src="Images/partnerzy/itpwnpl.png" alt="it.pwn.pl" /></a></div>
             </div>
         </div>
     </article>
