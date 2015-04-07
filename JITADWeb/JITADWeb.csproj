@@ -91,7 +91,9 @@
     <Content Include="Images\logo_inverted.svg" />
     <Content Include="Images\map-pin.png" />
     <Content Include="Images\partnerzy\exertum.jpg" />
+    <Content Include="Images\partnerzy\itpwnpl.png" />
     <Content Include="Images\partnerzy\microsoft.png" />
+    <Content Include="Images\partnerzy\pwn.png" />
     <Content Include="Images\prelegenci\dawid-chroscielski.JPG" />
     <Content Include="Images\prelegenci\janusz-jablonowski.jpg" />
     <Content Include="Images\prelegenci\kamil-stachowicz.png" />
