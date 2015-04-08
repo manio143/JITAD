@@ -90,6 +90,7 @@
     <Content Include="Images\logo_inverted.png" />
     <Content Include="Images\logo_inverted.svg" />
     <Content Include="Images\map-pin.png" />
+    <Content Include="Images\partnerzy\cbsg.jpg" />
     <Content Include="Images\partnerzy\exertum.jpg" />
     <Content Include="Images\partnerzy\itpwnpl.png" />
     <Content Include="Images\partnerzy\microsoft.png" />
@@ -97,7 +98,9 @@
     <Content Include="Images\prelegenci\dawid-chroscielski.JPG" />
     <Content Include="Images\prelegenci\janusz-jablonowski.jpg" />
     <Content Include="Images\prelegenci\kamil-stachowicz.png" />
+    <Content Include="Images\prelegenci\pawel-plawiak.jpg" />
     <Content Include="Images\prelegenci\person-blank.png" />
+    <Content Include="Images\prelegenci\przemek-trzepla.jpg" />
     <Content Include="Images\prelegenci\ryszard-dalkowski.jpg" />
     <Content Include="Images\stats.png" />
     <Content Include="Images\windows-phone.png" />

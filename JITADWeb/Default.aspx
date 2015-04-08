@@ -92,14 +92,14 @@
             <h3>Poznaj prowadzących wykłady</h3>
             <div class="frame">
                 <div class="bit-3">
-                    <img src="./images/prelegenci/kamil-stachowicz.png" /><h4>Kamil Stachowicz</h4>
-                    <h5>Academic Program Manager | Microsoft</h5>
-                    <p>Od 5 lat związany z programami Student Partner i Student Consultant. Były lider Grupy .NET Uniwersytetu Gdańskiego, wielokrotny finalista Imagine Cup oraz współtwórca startupów Linxi i Defii.co. Prelegent i trener na największych technologicznych wydarzeniach uczelnianych w Polsce. Pasjonat najnowszych technologii, trendów mobilnych i startupów.</p>
+                    <img src="./images/prelegenci/przemek-trzepla.jpg" /><h4>Przemysław Trzepla</h4>
+                    <h5>Microsoft</h5>
+                    <p>Od trzech lat związany zawodowo z firmą Microsoft, współorganizator konkursu Imagine Cup, opiekun projektu praktyk oraz programu Dreamspark. Domorosły grafik i wielbiciel ciężkich brzmień.</p>
                 </div>
                 <div class="bit-3">
                     <img src="./images/prelegenci/ryszard-dalkowski.jpg" />
                     <h4>Ryszard Dałkowski</h4>
-                    <h5>Niezależny konsultant i trener</h5>
+                    <h5>Niezależny konsultant i trener | Exertum</h5>
                     <p>
                         Były pracownik Microsoft z ponad 18-letnim stażem w korporacji w różnych rolach – technicznych, marketingowych, kierownika projektu i menadżera zespołu sprzedaży rozwiązań wspomagania biznesu.
 Odpowiedzialny, m.in. za przygotowanie uzasadnienia biznesowego dla pierwszej polskiej lokalizacji oprogramowania Microsoft Windows Server. Przez ostatnie 4 lata w Microsoft odpowiadał za strategię współpracy i rozwoju otwartego oprogramowania na platformie cloud computing Microsoft Azure.
@@ -123,10 +123,10 @@ półautomatyczne dowodzenie własności programów.
                     <p>Microsoft Junior .NET Leader, student 2 roku Informatyki na Wydziale Elektrycznym Politechniki Poznańskiej. Współzałożyciel grupy developerów indie: Pixel Creators. Na co dzień zajmuje się tworzeniem gier z wykorzystaniem Unity. Aktywny uczestnik wielu gamejamów, konferencji, warsztatów dotyczących gier wideo. Zainteresowania: proceduralne generowanie roślinności w przestrzeni trójwymiarowej.</p>
                 </div>
                 <div class="bit-3">
-                    <img src="./images/prelegenci/person-blank.png" /><h4>To be announced</h4>
+                    <img src="./images/prelegenci/pawel-plawiak.jpg" /><h4>Paweł Pławiak</h4><h5>CEO | CBSG Polska</h5><p>Microsoft Certified Trainer, wykładowca akademicki, CEO w CBSG Polska. Posiada certyfikaty Microsoft pierwszej (MCP/MCSA/MCSE), drugiej (MCTS/MCITP) i trzeciej generacji (MOS/MTA/MCSA/MCSE). Od lipca 2009 roku MVP w kategorii Directory Services. Regularnie uczestniczy w wielu projektach i wdrożeniach, gdzie pełni rolę konsultanta rozwiązań opartych o platformę serwerową Windows. Współtwórca przewodników bezpieczeństwa dla Rządowego Zespołu Reagowania na Incydenty Komputerowe. Współpracuje z Microsoft w zakresie certyfikacji zawodowych. Twórca witryny www.certbook.it oraz lider Warszawskiej Grupy Użytkowników i Specjalistów Windows (www.wguisw.org). Pasjonat karawaningu.</p>
                 </div>
                 <div class="bit-3">
-                    <img src="./images/prelegenci/person-blank.png" /><h4>To be announced</h4>
+                    <img src="./images/prelegenci/person-blank.png" /><h4>Przemysław Gałuszka</h4><h5>Microsoft</h5><p>...</p>
                 </div>
             </div>
         </div>
@@ -228,8 +228,10 @@ półautomatyczne dowodzenie własności programów.
                     <img src="Images/partnerzy/exertum.jpg" alt="Exertum" /></div>
                 <div class="bit-3">
                     <a href="http://pwn.pl/"><img src="Images/partnerzy/pwn.png" alt="PWN" /></a></div>
-                <div class="bit-3" style="float: none; margin: 0 auto;">
+                <div class="bit-3">
                     <a href="http://it.pwn.pl/"><img src="Images/partnerzy/itpwnpl.png" alt="it.pwn.pl" /></a></div>
+                <div class="bit-3">
+                    <a href="http://cbsg.pl/"><img src="Images/partnerzy/cbsg.jpg" alt="CBSG Polska" /></a></div>
             </div>
         </div>
     </article>
