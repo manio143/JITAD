@@ -127,7 +127,7 @@ półautomatyczne dowodzenie własności programów.
                     <img src="./images/prelegenci/pawel-plawiak.jpg" /><h4>Paweł Pławiak</h4><h5>CEO | CBSG Polska</h5><p>Microsoft Certified Trainer, wykładowca akademicki, CEO w CBSG Polska. Posiada certyfikaty Microsoft pierwszej (MCP/MCSA/MCSE), drugiej (MCTS/MCITP) i trzeciej generacji (MOS/MTA/MCSA/MCSE). Od lipca 2009 roku MVP w kategorii Directory Services. Regularnie uczestniczy w wielu projektach i wdrożeniach, gdzie pełni rolę konsultanta rozwiązań opartych o platformę serwerową Windows. Współtwórca przewodników bezpieczeństwa dla Rządowego Zespołu Reagowania na Incydenty Komputerowe. Współpracuje z Microsoft w zakresie certyfikacji zawodowych. Twórca witryny www.certbook.it oraz lider Warszawskiej Grupy Użytkowników i Specjalistów Windows (www.wguisw.org). Pasjonat karawaningu.</p>
                 </div>
                 <div class="bit-3">
-                    <img src="./images/prelegenci/person-blank.png" /><h4>Przemysław Gałuszka</h4><h5>Microsoft</h5><p>...</p>
+                    <img src="./images/prelegenci/przemek-galuszka.jpg" /><h4>Przemysław Gałuszka</h4><h5>Microsoft</h5><p>Były Microsoft Student Partner na Uniwersytecie Śląskim oraz Microsoft Student Consultant regionu Śląsko-Małopolskiego. Obecnie pracownik Microsoft Polska w dziale DX zajmującym się nowymi technologiami oraz działalnością ze społecznościami IT w Polsce.</p>
                 </div>
             </div>
         </div>
