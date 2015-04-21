@@ -33,6 +33,7 @@
                             <th class="_head">Login</th>
                             <th class="_head">Imię</th>
                             <th class="_head">Nazwisko</th>
+			    <th class="_head">Szkoła</th>
                             <th class="_head">Przybył</th>
                             <th class="_head">Godzina przybycia</th>
                         </tr>
