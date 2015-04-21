@@ -43,6 +43,7 @@
                             <asp:Label ID="lblLogin" Text='<%#Eval("Login") %>' runat="server" /></td>
                         <td class="_el"><%#Eval("Name") %></td>
                         <td class="_el"><%#Eval("Surname") %></td>
+                        <td class="_el"><%#Eval("School") %></td>
                         <td class="_el _center">
                             <asp:CheckBox ID="cbArrived" runat="server" /></td>
                         <td class="_el _center"><%#Eval("Time", "{0:hh:mm:ss}") %></td>

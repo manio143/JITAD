@@ -15,6 +15,7 @@ namespace JITADWeb.Admin
         {
             JITAD.UserStats stats = new JITAD.UserStats();
             var users = stats.GetUsers();
+            var schools = stats.GetSchools();
             foreach (var u in users)
             {
                 UserArrived us = new UserArrived();
@@ -23,6 +24,7 @@ namespace JITADWeb.Admin
                 us.Login = u.UserName;
                 us.Time = u.ArrivedAtEvent;
                 us.Arrived = u.ArrivedAtEvent != DateTime.MinValue;
+                us.School = schools[u.SchoolId];
                 usr.Add(us);
             }
             if (!Page.IsPostBack)
@@ -77,6 +79,7 @@ namespace JITADWeb.Admin
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Login { get; set; }
+        public string School { get; set; }
         public bool Arrived { get; set; }
         public DateTime Time { get; set; }
     }
